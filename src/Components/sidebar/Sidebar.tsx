@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 
@@ -26,52 +27,52 @@ export default function Sidebar({ open, setopen }: any) {
 
             <div className='bg-black px-2 text-white w-1/2 pt-10 fixed lg:w-2/6 md:px-16 md:pt-6 overflow-x-hidden absloute right-0'  >
 
-                <a href="http://www.wedugut.com" target={'blank'}>
+                <Link href="/action" >
                     <div className='flex my-2 items-center cursor-pointer '>
 
                         <Image src={'/images/common/ACTION.png'} height={80} width={80} />
                         <p className='ml-2 '>ACTION</p>
                     </div>
-                </a>
+                </Link>
 
-                <a href="http://www.friends.dugut.app" target={'blank'}>
+                <Link href="/friends" >
 
                     <div className='flex my-2 items-center cursor-pointer'>
                         <Image src={'/images/common/FRIENDS.png'} height={80} width={80} />
                         <p className='ml-2'>SOCIAL</p>
                     </div>
-                </a>
+                </Link>
 
-                <a href="http://www.dugutopia.com" target={'blank'}>
+                <Link href="/dugutopia" >
 
                     <div className='flex my-2 items-center cursor-pointer'>
                         <Image src={'/images/common/DUGUTOPIA.png'} height={80} width={80} />
                         <p className='ml-2'>DUGUTOPIA</p>
                     </div>
-                </a>
+                </Link>
 
-                <a href="http://dugut.app/kids" target={'blank'}>
+                <Link href="/kids" >
 
                     <div className='flex my-2 items-center cursor-pointer'>
                         <Image src={'/images/common/KIDS.png'} height={80} width={80} />
                         <p className='ml-2'>KIDS</p>
                     </div>
-                </a>
+                </Link>
 
-                <a href="http://actionist.dugutopia.com/ " target={'blank'}>
+                <Link href="/nfts" >
 
                     <div className='flex my-2 items-center cursor-pointer'>
                         <Image src={'/images/common/NFT.png'} height={80} width={80} />
                         <p className='ml-2'>NFTs</p>
                     </div>
-                </a>
-                <a href="http://www.friends.dugut.app/shop " target={'blank'}>
+                </Link>
+                <Link href="/shop" >
 
                     <div className='flex my-2 items-center cursor-pointer'>
                         <Image src={'/images/common/SHOP_ICON.png'} height={80} width={80} />
                         <p className='ml-2'>SHOP</p>
                     </div>
-                </a>
+                </Link>
 
                 <div className=' flex flex-col justify-center w-3/4 text-md mx-4 mt-8 md:my-2  md:w-5/12 md:mt-4  '>
 
@@ -79,7 +80,7 @@ export default function Sidebar({ open, setopen }: any) {
                         <Image className='' src={'/images/common/circle-fill.svg'} height={20} width={20} />
 
                         <div className='ml-6 cursor-pointer'>
-                            <a href="http://www.about.wedugut.com" target={'blank'}>
+                            <a href="https://www.company.wedugut.com" target={'blank'}>
                                 <p >ABOUT US</p>
                             </a>
                         </div>

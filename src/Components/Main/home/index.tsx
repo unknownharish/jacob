@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { useRouter } from "next/router";
 import React from "react";
 
@@ -16,46 +17,48 @@ export default function HomePageComponent() {
       <div className="flex justify-center items-center flex-wrap animate-openMenu">
 
 
-          <div className="w-[180px] h-[300px]  lg:h-[350px] lg:w-[220px] cursor-pointer hover:brightness-110 relative">
-            <Image
-              src={"/images/homePage/action.png"}
-              alt="Action"
-              layout="fill"
-              objectFit="contain"
+        <div className="w-[180px] h-[300px]  lg:h-[350px] lg:w-[220px] cursor-pointer hover:brightness-110 relative">
+          <Image
+            src={"/images/homePage/action.webp"}
+            alt="Action"
+            layout="fill"
+            objectFit="contain"
 
             onClick={() => router.push("/action")}
-            />
-          </div>
-
-      
+          />
+        </div>
 
 
-        <a href="http://www.friends.dugut.app" target={'blank'}>
+
+
+        <Link href='/friends'>
+
           <div className="w-[180px] h-[300px]  lg:h-[350px] lg:w-[220px] cursor-pointer hover:brightness-110 relative">
             <Image
-              src={"/images/homePage/friends.png"}
+              src={"/images/homePage/friends.webp"}
               alt="Friends"
               layout="fill"
               objectFit="contain"
             />
           </div>
-        </a>
+        </Link>
 
-        <a href="http://www.dugutopia.com" target={'blank'}>
+
+        <Link href='/dugutopia'>
           <div className="w-[180px] h-[300px] lg:h-[350px] lg:w-[220px] cursor-pointer hover:opacity-120 hover:brightness-110 relative">
             <Image
-              src={"/images/homePage/dugotopia.png"}
+              src={"/images/homePage/dugotopia.webp"}
               alt="Dugotopia"
               layout="fill"
               objectFit="contain"
             />
           </div>
-        </a>
+        </Link>
 
 
         <div className=" w-[180px] h-[300px] lg:h-[350px] lg:w-[220px] cursor-pointer hover:opacity-120 hover:brightness-110 relative">
           <Image
-            src={"/images/homePage/kids.png"}
+            src={"/images/homePage/kids.webp"}
             alt="Kids"
             layout="fill"
             objectFit="contain"
@@ -63,28 +66,28 @@ export default function HomePageComponent() {
           />
         </div>
 
-        <a href="http://www.actionist.dugutopia.com" target={'blank'}  >
-
+        <Link href='/nfts'>
           <div className=" hidden lg:flex w-[180px] h-[300px] lg:h-[350px] lg:w-[220px] cursor-pointer hover:opacity-120 hover:brightness-110 relative">
             <Image
-              src={"/images/homePage/nft.png"}
+              src={"/images/homePage/nft.webp"}
               alt="Nft"
               layout="fill"
               objectFit="contain"
             />
           </div>
-        </a>
-        <a href="http://www.friends.wedugut.com/shop" target={'blank'}>
+        </Link>
 
+        <Link href='/shop'>
           <div className=" hidden lg:flex w-[180px] h-[300px] lg:h-[280px] lg:w-[220px] lg:mt-4 cursor-pointer hover:opacity-120 hover:brightness-110 relative">
             <Image
-              src={"/images/homePage/SHOP_BUTTON.png"}
+              src={"/images/homePage/SHOP_BUTTON.webp"}
               alt="Shop Button"
               layout="fill"
               objectFit="contain"
             />
           </div>
-        </a>
+        </Link>
+
       </div>
     </div >
   );

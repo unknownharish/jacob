@@ -4,9 +4,12 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
+
+        'startupmain': "url('/images/startup/main.png')",  
         'mobile': "url('/images/Kids/BackgroundMobile.png')",  
         'web':"url('/images/Kids/BackgroundWeb.png')",
         'actionModal':"url('/images/action/modal-bg.png')",
+        'journey':"url('/images/journey/Background.png')",
       },
       colors: {
         'header-pattern': 'black',

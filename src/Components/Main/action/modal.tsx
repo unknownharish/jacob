@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 export default function ActionModal({ setactionModal }: any) {
@@ -18,11 +19,14 @@ export default function ActionModal({ setactionModal }: any) {
 
             <div className=' mt-5 h-full flex flex-col justify-center items-center sm:mt-10 sm:mr-3'>
 
-                <div className=" cursor-pointer w-3/4 sm:w-4/6" onClick={() => setactionModal(false)}>
-                    <img src="/images/action/one.png"
-                        alt="first image"
-                    />
-                </div>
+                <Link href={'/takeaction'}>
+                    <div className=" cursor-pointer w-3/4 sm:w-4/6" onClick={() => setactionModal(false)}>
+                        <img src="/images/action/one.png"
+                            alt="first image"
+                        />
+                    </div>
+                </Link>
+                
                 <div className=" cursor-pointer w-3/4 my-2 sm:w-4/6" >
                     <a href="https://www.friends.dugut.app " target={'blank'}>
                         <img src="/images/action/two.png"
