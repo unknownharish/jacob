@@ -35,7 +35,7 @@ export default function HomePageComponent() {
 
           <div className="w-[180px] h-[300px]  lg:h-[350px] lg:w-[220px] cursor-pointer hover:brightness-110 relative">
             <Image
-              src={"/images/homePage/friends.webp"}
+              src={"/images/homePage/FRIENDS.webp"}
               alt="Friends"
               layout="fill"
               objectFit="contain"
@@ -58,7 +58,7 @@ export default function HomePageComponent() {
 
         <div className=" w-[180px] h-[300px] lg:h-[350px] lg:w-[220px] cursor-pointer hover:opacity-120 hover:brightness-110 relative">
           <Image
-            src={"/images/homePage/kids.webp"}
+            src={"/images/homePage/KIDS.webp"}
             alt="Kids"
             layout="fill"
             objectFit="contain"
@@ -69,7 +69,7 @@ export default function HomePageComponent() {
         <Link href='/nfts'>
           <div className=" hidden lg:flex w-[180px] h-[300px] lg:h-[350px] lg:w-[220px] cursor-pointer hover:opacity-120 hover:brightness-110 relative">
             <Image
-              src={"/images/homePage/nft.webp"}
+              src={"/images/homePage/NFT.webp"}
               alt="Nft"
               layout="fill"
               objectFit="contain"
