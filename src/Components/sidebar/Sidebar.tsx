@@ -74,7 +74,7 @@ export default function Sidebar({ open, setopen }: any) {
                     </div>
                 </Link>
 
-                <div className=' flex flex-col justify-center w-3/4 text-md mx-4 mt-8 md:my-2  md:w-5/12 md:mt-4  '>
+                <div className='flex flex-col text-sm  justify-center w-3/4 text-md mx-4 mt-8 md:my-2  md:w-5/12 md:mt-4  '>
 
                     <div className='flex justify-center items-center  '>
                         <Image className='' src={'/images/common/circle-fill.svg'} height={20} width={20} />
@@ -87,7 +87,7 @@ export default function Sidebar({ open, setopen }: any) {
 
 
                     </div>
-                    <div className='flex justify-center items-center w-full ml-2 sm:mt-2 mt-1 '>
+                    <div className='flex justify-center items-center w-full ml-[6px] sm:mt-2 mt-1  '>
                         <Image className='' src={'/images/common/circle-fill.svg'} height={20} width={20} />
 
                         <div className='ml-6 cursor-pointer'>
@@ -98,7 +98,7 @@ export default function Sidebar({ open, setopen }: any) {
 
 
                     </div>
-                    <div className=' w-full flex justify-center items-center my-1 relative -left-[18px] sm:-left-[17px] md:-left-[18px] md:mt-2'>
+                    <div className=' w-full flex justify-center items-center my-1 relative -left-[17px] sm:-left-[17px] md:-left-[16px] md:mt-2'>
                         <Image className='' src={'/images/common/circle-fill.svg'} height={20} width={20} />
 
                         <div className='pl-6 cursor-pointer'>
