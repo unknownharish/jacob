@@ -12,7 +12,9 @@ export default function HomePageComponent() {
   return (
     <div className="flex-1 flex flex-col justify-center items-center">
       <h1 className="text-[2.2rem] lg:text-[3.3rem] w-[95%] tracking-wide text-white text-center mt-[3rem] lg:w-[600px]">
-        CHANGE YOUR FUTURE  1 MICRO-ACTION AT A TIME!
+        CHANGE YOUR FUTURE  
+        <p> 1 MICRO-ACTION  </p>
+        AT A TIME!
       </h1>
       <div className="flex justify-center items-center flex-wrap animate-openMenu">
 
@@ -35,7 +37,7 @@ export default function HomePageComponent() {
 
           <div className="w-[180px] h-[300px]  lg:h-[350px] lg:w-[220px] cursor-pointer hover:brightness-110 relative">
             <Image
-              src={"/images/homePage/FRIENDS.webp"}
+              src={"/images/homePage/friends.webp"}
               alt="Friends"
               layout="fill"
               objectFit="contain"
@@ -58,7 +60,7 @@ export default function HomePageComponent() {
 
         <div className=" w-[180px] h-[300px] lg:h-[350px] lg:w-[220px] cursor-pointer hover:opacity-120 hover:brightness-110 relative">
           <Image
-            src={"/images/homePage/KIDS.webp"}
+            src={"/images/homePage/kids.webp"}
             alt="Kids"
             layout="fill"
             objectFit="contain"
@@ -69,7 +71,7 @@ export default function HomePageComponent() {
         <Link href='/nfts'>
           <div className=" hidden lg:flex w-[180px] h-[300px] lg:h-[350px] lg:w-[220px] cursor-pointer hover:opacity-120 hover:brightness-110 relative">
             <Image
-              src={"/images/homePage/NFT.webp"}
+              src={"/images/homePage/nft.webp"}
               alt="Nft"
               layout="fill"
               objectFit="contain"

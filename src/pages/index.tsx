@@ -9,7 +9,7 @@ export default function MainHomepage() {
 
             <img src="images/startup/main.png" className='h-screen w-screen object-cover md:object-fill' alt="" />
 
-            <div className='absolute top-3/4 -left-[6%]; md:left-[24%] flex flex-col items-center'>
+            <div className='absolute top-3/4 -left-[6%]; md:left-[24%] xl:left-[26%] flex flex-col items-center'>
 
                 <Link href='/main'>
                     <img src="images/startup/startbutton.png" className='w-[18%] cursor-pointer hover:brightness-110 ' alt="" />

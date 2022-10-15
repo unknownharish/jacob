@@ -8,7 +8,7 @@ export default function Friends() {
 
             <img src="images/startup/friends.png" className='h-5/6  mx-auto mt-24  ' alt="" />
 
-            <div className='absolute top-[80%] md:top-[78%] -left-[6%]; md:left-[24%] flex flex-col items-center  '>
+            <div className='absolute top-[80%] md:top-[78%] -left-[6%]; md:left-[24%] xl:left-[26%] flex flex-col items-center  '>
                 <a href="https://friends.dugut.app" target={'blank'} className='w-[18%] cursor-pointer hover:brightness-110' >
 
                     <img src="images/startup/startbutton.png"  alt="" />

@@ -78,7 +78,7 @@ export default function TakeAction() {
                             (+1 Minute)
                         </p>
 
-                        <a href="https://www.friends.dugut.app " target={'blank'} className='mt-8 -mb-8 '>
+                        <a href="https://friends.dugut.app " target={'blank'} className='mt-8 -mb-8 '>
 
                             <Image src='/images/takeaction/GOButton.png'
                                 height='75'

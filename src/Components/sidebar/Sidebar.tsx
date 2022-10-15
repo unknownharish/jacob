@@ -38,7 +38,7 @@ export default function Sidebar({ open, setopen }: any) {
                 <Link href="/friends" >
 
                     <div className='flex my-2 items-center cursor-pointer'>
-                        <Image src={'/images/common/FRIENDS.png'} height={80} width={80} />
+                        <Image src={'/images/common/FRIENDS.webp'} height={80} width={80} />
                         <p className='ml-2'>SOCIAL</p>
                     </div>
                 </Link>
@@ -54,7 +54,7 @@ export default function Sidebar({ open, setopen }: any) {
                 <Link href="/kids" >
 
                     <div className='flex my-2 items-center cursor-pointer'>
-                        <Image src={'/images/common/KIDS.png'} height={80} width={80} />
+                        <Image src={'/images/common/KIDS.webp'} height={80} width={80} />
                         <p className='ml-2'>KIDS</p>
                     </div>
                 </Link>
@@ -62,7 +62,7 @@ export default function Sidebar({ open, setopen }: any) {
                 <Link href="/nfts" >
 
                     <div className='flex my-2 items-center cursor-pointer'>
-                        <Image src={'/images/common/NFT.png'} height={80} width={80} />
+                        <Image src={'/images/common/NFT.webp'} height={80} width={80} />
                         <p className='ml-2'>NFTs</p>
                     </div>
                 </Link>
@@ -80,7 +80,7 @@ export default function Sidebar({ open, setopen }: any) {
                         <Image className='' src={'/images/common/circle-fill.svg'} height={20} width={20} />
 
                         <div className='ml-6 cursor-pointer'>
-                            <a href="https://www.company.wedugut.com" target={'blank'}>
+                             <a href="http://company.wedugut.com" target={'blank'}>
                                 <p >ABOUT US</p>
                             </a>
                         </div>

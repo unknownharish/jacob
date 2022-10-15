@@ -37,22 +37,13 @@ export function MainComponent() {
           </a>
 
 
-          {/* <div className="w-[180px] h-[300px]  lg:h-[350px] lg:w-[220px] cursor-pointer hover:brightness-110 relative">
-              <Image
-                src={"/images/action/ACTION_GAMES.png"}
-                alt="Games"
-                layout="fill"
-                objectFit="contain"
-              />
-            </div> */}
-
-
           <Link href={'play'}>
 
 
             <div className="flex justify-center items-center px-2 py-2  bg-purple-pattern rounded-lg relative cursor-pointer">
               <img
-                src={'/images/action/GAMES.png'}
+                src={'/images/action/GAMES.webp'}
+                // src={'/images/action/GAMES.png'}
                 alt="Games"
                 className="h-[250px] w-[150px] md:h-[350px] md:w-[200px]"
               />
