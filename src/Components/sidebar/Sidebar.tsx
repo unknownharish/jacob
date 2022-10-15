@@ -74,7 +74,7 @@ export default function Sidebar({ open, setopen }: any) {
                     </div>
                 </Link>
 
-                <div className='flex flex-col text-sm  justify-center w-3/4 text-md mx-4 mt-8 md:my-2  md:w-5/12 md:mt-4  '>
+                <div className='flex flex-col text-xs md:text-sm  justify-center w-3/4 text-md mx-4 mt-8 md:my-2  md:w-5/12 md:mt-4  '>
 
                     <div className='flex justify-center items-center  '>
                         <Image className='' src={'/images/common/circle-fill.svg'} height={20} width={20} />
