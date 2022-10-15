@@ -9,7 +9,7 @@ export default function Sidebar({ open, setopen }: any) {
     const style = {
 
         transition: '0.3s all ease-in',
-        transform: open ? 'translateY(0vh)' : 'translateY(-110vh)',
+        transform: open ? 'translateY(0vh)' : 'translateY(-140vh)',
         zIndex: '5',
         // position: 'sticky',
         top: '0'
