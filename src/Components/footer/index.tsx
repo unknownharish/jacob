@@ -14,7 +14,7 @@ export function FooterComponent() {
       <div className="flex gap-7 justify-center items-center m-auto mb-12">
         <IconComponent
           icon={<FaFacebookF size={30} />}
-          href={"https://www.facebook.com/wedugut/"} 
+          href={"https://www.facebook.com/wedugut/"}
         />
         <IconComponent
           icon={<BsInstagram size={30} />}
@@ -41,9 +41,19 @@ export function FooterComponent() {
         />
       </div>
       <div className=" flex justify-center items-center w-full text-sm text-white font-light gap-4">
-        <p>Privacy</p>
-        <p>GDPR</p>
-        <p>Terms</p>
+        <a href="https://dugut.app/privacy/DuGut-Privacy-Policy.pdf" target={'blank'}>
+          <p className='mr-2 cursor-pointer'>Privacy</p>
+        </a>
+
+        <a href="https://dugut.app/data/DuGut-General-Data-Protection-Regulation.pdf" target={'blank'}>
+
+          <p className='mr-2 cursor-pointer'>GDPR</p>
+        </a>
+
+        <a href="https://dugut.app/terms/DuGut-Terms-of-Use.pdf" target={'blank'}>
+
+          <p className='mr-2 cursor-pointer'>Terms</p>
+        </a>
       </div>
       <div className="w-full flex justify-center items-center bg-black text-white font-light">
         <p>DuGut Ltda 2022. All rights reserved ©</p>
