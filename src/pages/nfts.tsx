@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Nfts() {
     return (
-        <div className='bg-[#ef6c00] h-screen flex align-bottom overflow-y-hidden'>
+        <div className='bg-[#ef6c00] h-screen flex flex-col overflow-y-hidden'>
 
 
             <img src="images/startup/nft.png" className='h-5/6  mx-auto mt-24  ' alt="" />
@@ -20,7 +20,7 @@ export default function Nfts() {
 
 
             {/* footer  */}
-            <div className='absolute bottom-0' >
+            <div className='h-[8vh] flex justify-center items-end' >
                 <img
                     src={'/images/journey/footer.png'}
 

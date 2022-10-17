@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function PlayRedirect() {
   return (
-    <div className='bg-[#94d502] h-screen flex align-bottom overflow-y-hidden'>
+    <div className='bg-[#94d502] h-screen flex flex-col overflow-y-hidden'>
 
 
             <img src="images/startup/play.png" className='h-5/6  mx-auto mt-24  ' alt="" />
@@ -19,7 +19,7 @@ export default function PlayRedirect() {
 
 
             {/* footer  */}
-            <div className='absolute bottom-0' >
+            <div className='h-[8vh] flex justify-center items-end' >
                 <img
                     src={'/images/journey/footer.png'}
 

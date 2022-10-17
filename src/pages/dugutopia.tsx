@@ -2,10 +2,10 @@ import React from 'react'
 
 export default function Dugutopia() {
     return (
-        <div className='bg-[#0084b4] h-screen flex align-bottom overflow-y-hidden'>
+        <div className='bg-[#0084b4] h-screen flex flex-col overflow-y-hidden'>
 
 
-            <img src="images/startup/dugutopia.png" className='h-5/6  mx-auto mt-24  ' alt="" />
+            <img src="images/startup/dugutopia.png" className='h-5/6 mx-auto mt-24  ' alt="" />
 
             <div className='h-[10vh] flex justify-center absolute bottom-10 w-full'>
                 <a href="https://www.dugutopia.com" target={'blank'} className='cursor-pointer hover:brightness-110 w-40 m-auto' >
@@ -20,7 +20,7 @@ export default function Dugutopia() {
 
 
             {/* footer  */}
-            <div className='absolute bottom-0' >
+            <div className='h-[8vh] flex justify-center items-end' >
                 <img
                     src={'/images/journey/footer.png'}
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Shop() {
     return (
-        <div className='bg-[#cc0033] h-screen flex align-bottom overflow-y-hidden'>
+        <div className='bg-[#cc0033] h-screen flex flex-col overflow-y-hidden'>
 
  
             <img src="images/startup/shop.png" className='h-5/6  mx-auto mt-12  ' alt="" />
@@ -21,7 +21,7 @@ export default function Shop() {
 
 
             {/* footer  */}
-            <div className='absolute bottom-0' >
+            <div className='h-[18vh] flex justify-center items-end' >
                 <img
                     src={'/images/journey/footer.png'}
 

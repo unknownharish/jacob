@@ -3,9 +3,7 @@ import React from 'react'
 
 export default function Friends() {
 
-    const style = {
-        backgroundImage: 'url("images/startup/friends.png")'
-    }
+  
     return (
         <div className='bg-[#c43538] h-screen ' >
 
@@ -27,7 +25,7 @@ export default function Friends() {
 
 
             {/* footer  */}
-            <div className='absolute bottom-0' >
+            <div className='flex justify-center items-end' >
                 <img
                     src={'/images/journey/footer.png'}
 
