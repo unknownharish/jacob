@@ -53,7 +53,7 @@ export default function Action() {
 
                 <Link href="/shop">
 
-                    <div className="  lg:flex w-[180px] h-[300px] lg:h-[270px] lg:w-[220px] lg:mt-2 cursor-pointer hover:opacity-120 hover:brightness-110 relative">
+                    <div className="lg:flex w-[180px] h-[300px] lg:h-[270px] lg:w-[220px] lg:mt-2 cursor-pointer hover:opacity-120 hover:brightness-110 relative">
                         <Image
                             src={"/images/action/SHOP_BUTTON.webp"}
                             alt="Shop Button"

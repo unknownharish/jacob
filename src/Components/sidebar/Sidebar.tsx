@@ -27,13 +27,16 @@ export default function Sidebar({ open, setopen }: any) {
 
             <div className='bg-black px-2 text-white w-1/2 pt-10 fixed lg:w-2/6 md:px-16 md:pt-6 overflow-x-hidden absloute right-0'  >
 
-                <Link href="/action" >
+                {/* <Link href="/action" > */}
+                <a href="https://www.wedugut.com/" target={'blank'}>
+
                     <div className='flex my-2 items-center cursor-pointer '>
 
                         <Image src={'/images/common/ACTION.png'} height={80} width={80} />
                         <p className='ml-2 '>ACTION</p>
                     </div>
-                </Link>
+                </a>
+                {/* </Link> */}
 
                 <Link href="/friends" >
 
@@ -74,23 +77,23 @@ export default function Sidebar({ open, setopen }: any) {
                     </div>
                 </Link>
 
-                <div className='flex flex-col text-xs md:text-sm  justify-center w-3/4 text-md mx-4 mt-8 md:my-2  md:w-5/12 md:mt-4  '>
+                <div className='flex flex-col text-xs md:text-sm  justify-center w-3/4 text-md mx-4 mt-8 md:my-2  md:mt-4  '>
 
-                    <div className='flex justify-center items-center  '>
-                        <Image className='' src={'/images/common/circle-fill.svg'} height={20} width={20} />
+                    <div className='flex justify-around items-center w-[100%] '>
+                        <Image className='w-[30%]' src={'/images/common/circle-fill.svg'} height={20} width={20} />
 
-                        <div className='ml-6 cursor-pointer'>
-                             <a href="http://company.wedugut.com" target={'blank'}>
+                        <div className='cursor-pointer w-[70%] '>
+                            <a href="http://company.wedugut.com" target={'blank'}>
                                 <p >ABOUT US</p>
                             </a>
                         </div>
 
 
                     </div>
-                    <div className='flex justify-center items-center w-full ml-[6px] sm:mt-2 mt-1  '>
-                        <Image className='' src={'/images/common/circle-fill.svg'} height={20} width={20} />
+                    <div className='flex justify-around items-center w-[100%] my-2  '>
+                        <Image className='w-[30%]' src={'/images/common/circle-fill.svg'} height={20} width={20} />
 
-                        <div className='ml-6 cursor-pointer'>
+                        <div className='cursor-pointer w-[70%] '>
                             <a href='mailto:business@dugut.app'>
                                 <p >CONTACT US</p>
                             </a>
@@ -98,10 +101,10 @@ export default function Sidebar({ open, setopen }: any) {
 
 
                     </div>
-                    <div className=' w-full flex justify-center items-center my-1 relative -left-[17px] sm:-left-[17px] md:-left-[16px] md:mt-2'>
-                        <Image className='' src={'/images/common/circle-fill.svg'} height={20} width={20} />
+                    <div className='flex justify-around items-center w-[100%]'>
+                        <Image className='w-[30%]' src={'/images/common/circle-fill.svg'} height={20} width={20} />
 
-                        <div className='pl-6 cursor-pointer'>
+                        <div className='cursor-pointer w-[70%] '>
                             <a href='https://www.dugut.org' target={'blank'}>
                                 <p >JOBS</p>
                             </a>

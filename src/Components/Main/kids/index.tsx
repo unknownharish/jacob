@@ -43,7 +43,6 @@ export function MainComponent() {
             <div className="flex justify-center items-center px-2 py-2  bg-purple-pattern rounded-lg relative cursor-pointer">
               <img
                 src={'/images/action/GAMES.webp'}
-                // src={'/images/action/GAMES.png'}
                 alt="Games"
                 className="h-[250px] w-[150px] md:h-[350px] md:w-[200px]"
               />

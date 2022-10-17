@@ -69,7 +69,7 @@ export default function HomePageComponent() {
         </div>
 
         <Link href='/nfts'>
-          <div className=" hidden lg:flex w-[180px] h-[300px] lg:h-[350px] lg:w-[220px] cursor-pointer hover:opacity-120 hover:brightness-110 relative">
+          <div className="  lg:flex w-[180px] h-[300px] lg:h-[350px] lg:w-[220px] cursor-pointer hover:opacity-120 hover:brightness-110 relative">
             <Image
               src={"/images/homePage/nft.webp"}
               alt="Nft"
@@ -80,7 +80,7 @@ export default function HomePageComponent() {
         </Link>
 
         <Link href='/shop'>
-          <div className=" hidden lg:flex w-[180px] h-[300px] lg:h-[280px] lg:w-[220px] lg:mt-4 cursor-pointer hover:opacity-120 hover:brightness-110 relative">
+          <div className=" lg:flex w-[180px] h-[300px] lg:h-[280px] lg:w-[220px] lg:mt-4 cursor-pointer hover:opacity-120 hover:brightness-110 relative">
             <Image
               src={"/images/homePage/SHOP_BUTTON.webp"}
               alt="Shop Button"
