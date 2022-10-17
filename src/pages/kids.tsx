@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function KidsRedirect() {
     return (
-        <div className='bg-[#ff2ab7] h-screen flex align-bottom'>
+        <div className='bg-[#ff2ab7] h-screen flex align-bottom overflow-y-hidden'>
 
 
             <img src="images/startup/kids.png" className='h-5/6  mx-auto mt-24  ' alt="" />

@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function PlayRedirect() {
   return (
-    <div className='bg-[#94d502] h-screen flex align-bottom'>
+    <div className='bg-[#94d502] h-screen flex align-bottom overflow-y-hidden'>
 
 
             <img src="images/startup/play.png" className='h-5/6  mx-auto mt-24  ' alt="" />

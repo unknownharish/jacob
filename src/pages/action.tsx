@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Redirect_to_Action() {
     return (
-        <div className='bg-[#94d502] h-screen flex align-bottom'>
+        <div className='bg-[#94d502] h-screen flex align-bottom overflow-y-hidden'>
 
          
             <img src="images/startup/action.png" className='h-5/6  mx-auto mt-24  ' alt="" />

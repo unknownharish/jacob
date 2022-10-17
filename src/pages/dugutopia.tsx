@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Dugutopia() {
     return (
-        <div className='bg-[#0084b4] h-screen flex align-bottom'>
+        <div className='bg-[#0084b4] h-screen flex align-bottom overflow-y-hidden'>
 
 
             <img src="images/startup/dugutopia.png" className='h-5/6  mx-auto mt-24  ' alt="" />

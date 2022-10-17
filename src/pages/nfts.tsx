@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Nfts() {
     return (
-        <div className='bg-[#ef6c00] h-screen flex align-bottom'>
+        <div className='bg-[#ef6c00] h-screen flex align-bottom overflow-y-hidden'>
 
 
             <img src="images/startup/nft.png" className='h-5/6  mx-auto mt-24  ' alt="" />

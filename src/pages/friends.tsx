@@ -10,7 +10,7 @@ export default function Friends() {
         <div className='bg-[#c43538] h-screen ' >
 
 
-            <div className='flex justify-center  h-screen'>
+            <div className='flex justify-center  h-screen overflow-y-hidden'>
 
                 <img src="images/startup/friends.png" className='' alt="" />
             </div>
