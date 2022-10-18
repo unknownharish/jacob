@@ -6,25 +6,27 @@ export default function Redirect_to_Action() {
         <div className='bg-[#94d502] h-screen flex flex-col overflow-y-hidden'>
 
          
-            <img src="images/startup/action.png" className='h-5/6  mx-auto mt-24  ' alt="" />
+            <img src="images/startup/action.png" className='h-5/6  mx-auto mt-12 md:mt-0 ' alt="" />
 
-            <div className='h-[10vh] flex justify-center absolute bottom-10 w-full'>
+            <div className='h-[10vh] md:h-[15vh] flex flex-col justify-center absolute bottom-2 md:bottom-0 w-full'>
 
-                <Link href='/action-'>
-                    <img src="images/startup/startbutton.png" className='cursor-pointer hover:brightness-110 w-40 m-auto ' alt="" />
+                <a href='http://friends.dugut.app ' target={'blank'} className='mb-2'>
+                    <img src="images/startup/Connect.png" className='cursor-pointer hover:brightness-110 w-40 m-auto ' alt="" />
+                </a>
+                <Link href='/action-' >
+                    <img src="images/startup/Gobutton.png" className='cursor-pointer hover:brightness-110 w-40 m-auto ' alt="" />
                 </Link>
 
-                {/* <p className='text-white text-lg '>Connect</p> */}
             </div>
 
            
             {/* footer  */}
-            <div className='h-[8vh] flex justify-center items-end' >
+            {/* <div className='h-[8vh] flex justify-center items-end' >
                 <img
                     src={'/images/journey/footer.png'}
 
                 />
-            </div>
+            </div> */}
 
         </div>
         )

@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Friends() {
 
-  
+
     return (
         <div className='bg-[#c43538] h-screen ' >
 
@@ -12,25 +12,25 @@ export default function Friends() {
 
                 <img src="images/startup/friends.png" className='' alt="" />
             </div>
-            <div className='h-[10vh] flex items-center absolute bottom-20 w-full'>
-                <a href="https://friends.dugut.app" target={'blank'} className='cursor-pointer hover:brightness-110 w-40 m-auto' >
+            <div className='h-[18vh] flex flex-col justify-center absolute bottom-10 md:bottom-7 w-full  '>
 
-                    <img src="images/startup/startbutton.png" alt="" />
-
+                <a href='http://friends.dugut.app ' target={'blank'}>
+                    <img src="images/startup/Connect.png" className='cursor-pointer hover:brightness-110 w-24 m-auto ' alt="" />
+                </a>
+                <a href='https://friends.dugut.app' target={'blank'} className='mt-2'>
+                    <img src="images/startup/Gobutton.png" className='cursor-pointer hover:brightness-110 w-40 m-auto ' alt="" />
                 </a>
 
-            
-                {/* <p className='text-white text-lg '>Connect</p> */}
             </div>
 
 
             {/* footer  */}
-            <div className='flex justify-center items-end' >
+            {/* <div className='flex justify-center items-end' >
                 <img
                     src={'/images/journey/footer.png'}
 
                 />
-            </div>
+            </div> */}
 
         </div>
     )

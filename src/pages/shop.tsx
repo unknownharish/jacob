@@ -10,13 +10,12 @@ export default function Shop() {
             <div className='h-[10vh] flex justify-center absolute bottom-10 w-full'>
                 <a href="https://friends.dugut.app/shop" target={'blank'} className='w-40 m-auto cursor-pointer hover:brightness-110' >
 
-                    <img src="images/startup/startbutton.png" alt="" />
+                    <img src="images/startup/Gobutton.png" alt="" />
 
                 </a>
 
 
 
-                {/* <p className='text-white text-lg xl:text-2xl '>Connect</p> */}
             </div>
 
 
