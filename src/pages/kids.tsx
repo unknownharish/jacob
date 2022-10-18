@@ -16,12 +16,14 @@ let style ={
 
             <div className='h-[10vh] flex flex-col justify-center absolute bottom-10 md:bottom-5 w-full'>
 
-                <a href='http://friends.dugut.app' target='blank' className='mb-2'>
-                    <img src="images/startup/Connect.png" className='cursor-pointer hover:brightness-110 w-40 m-auto' alt="" />
-                </a>
-                <Link href='/kids-'>
+            <Link href='/kids-'>
                     <img src="images/startup/Gobutton.png" className='cursor-pointer hover:brightness-110 w-40 m-auto ' alt="" />
                 </Link>
+
+                <a href='http://friends.dugut.app' target='blank' className='mt-2'>
+                    <img src="images/startup/Connect.png" className='cursor-pointer hover:brightness-110 w-40 m-auto' alt="" />
+                </a>
+              
 
             </div>
 

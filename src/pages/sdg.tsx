@@ -8,14 +8,15 @@ export default function SdgRedirect() {
 
             <img src="images/startup/sdg.png" className='h-5/6  mx-auto mt-8 p-1 ' alt="" />
 
-            <div className='h-[10vh] flex flex-col justify-center absolute bottom-8 md:bottom-5 w-full'>
+            <div className='h-[12vh] md:h-[15vh] flex flex-col justify-center absolute bottom-8 md:bottom-5 w-full'>
 
-                <a href='http://friends.dugut.app' target='blank' className='mb-2'>
-                    <img src="images/startup/Connect.png" className='cursor-pointer hover:brightness-110 w-40 m-auto' alt="" />
-                </a>
                 <Link href='/sdg-'>
                     <img src="images/startup/Gobutton.png" className='cursor-pointer hover:brightness-110 w-40 m-auto ' alt="" />
                 </Link>
+                <a href='http://friends.dugut.app' target='blank' className='mb-2'>
+                    <img src="images/startup/Connect.png" className='cursor-pointer hover:brightness-110 w-40 m-auto' alt="" />
+                </a>
+
 
             </div>
 
