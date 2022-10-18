@@ -8,7 +8,7 @@ export default function Redirect_to_Action() {
          
             <img src="images/startup/action.png" className='h-5/6  mx-auto mt-12 md:mt-0 ' alt="" />
 
-            <div className='h-[10vh] md:h-[15vh] flex flex-col justify-center absolute bottom-2 md:bottom-0 w-full'>
+            <div className='h-[10vh] md:h-[14vh] flex flex-col justify-center absolute bottom-2 md:bottom-0 w-full'>
 
                 <a href='http://friends.dugut.app ' target={'blank'} className='mb-2'>
                     <img src="images/startup/Connect.png" className='cursor-pointer hover:brightness-110 w-40 m-auto ' alt="" />
