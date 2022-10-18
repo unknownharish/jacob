@@ -6,7 +6,7 @@ import { HeaderComponent } from '../Components/header'
 
 export default function DigutopiaMain() {
 
-    const [width, setwidth] = useState<Number>()
+    const [width, setwidth] = useState<Number>(0)
     const style = {
         backgroundImage: 'url("images/dugutopia/bg.png")'
     }
