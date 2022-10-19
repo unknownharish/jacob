@@ -18,21 +18,13 @@ export default function Friends() {
                     <img src="images/startup/Gobutton.png" className='cursor-pointer hover:brightness-110 w-40 m-auto ' alt="" />
                 </a>
 
-                <a href='http://friends.dugut.app ' target={'blank'}>
+                {/* <a href='http://friends.dugut.app ' target={'blank'}>
                     <img src="images/startup/Connect.png" className='cursor-pointer hover:brightness-110 w-24 m-auto ' alt="" />
-                </a>
+                </a> */}
 
 
             </div>
 
-
-            {/* footer  */}
-            {/* <div className='flex justify-center items-end' >
-                <img
-                    src={'/images/journey/footer.png'}
-
-                />
-            </div> */}
 
         </div>
     )
