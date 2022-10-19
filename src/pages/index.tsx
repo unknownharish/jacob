@@ -11,7 +11,7 @@ export default function MainHomepage() {
     return (
         <div className='h-screen overflow-y-hidden'>
 
-            <div className=' absolute top-14 w-full flex justify-center'>
+            <div className=' absolute top-14 w-full flex justify-center px-4'>
                 <Image src="/images/startup/splashLogo.png" height={150} width={500} />
             </div>
 

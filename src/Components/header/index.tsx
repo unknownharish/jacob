@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useState } from "react";
 
@@ -21,12 +22,15 @@ export function HeaderComponent({ image }: PropsHeader) {
       <header className="w-full h-[50px] bg-black">
         <div className="px-5 py-1 lg:w-[60%] m-auto flex justify-between items-center" >
           <div className="h-[40px] w-[160px] relative">
-            <Image
-              src={image}
-              alt="Logo Weguut"
-              layout="fill"
-              objectFit="contain"
-            />
+            <Link href={'/main'}>
+              <Image
+                src={image}
+                alt="Logo Weguut"
+                layout="fill"
+                objectFit="contain"
+                className="cursor-pointer"
+              />
+            </Link>
           </div>
           <div className="h-[40px] w-[40px] relative cursor-pointer">
             <Image
@@ -35,7 +39,7 @@ export function HeaderComponent({ image }: PropsHeader) {
               layout="fill"
               objectFit="contain"
               onClick={() => setopen(!open)}
-              style={{zIndex:10}}
+              style={{ zIndex: 10 }}
             />
           </div>
         </div>

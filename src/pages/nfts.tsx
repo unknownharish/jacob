@@ -26,13 +26,7 @@ export default function Nfts() {
             </div>
 
 
-            {/* footer  */}
-            {/* <div className='h-[8vh] flex justify-center items-end' >
-                <img
-                    src={'/images/journey/footer.png'}
-
-                />
-            </div> */}
+         
 
         </div>
     )

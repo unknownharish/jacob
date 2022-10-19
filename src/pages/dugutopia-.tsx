@@ -6,7 +6,7 @@ import { HeaderComponent } from '../Components/header'
 
 export default function DigutopiaMain() {
 
-    const [width, setwidth] = useState<Number>(0)
+    const [width, setwidth] = useState<Number>(451)
     const style = {
         backgroundImage: 'url("images/dugutopia/bg.png")'
     }
@@ -33,7 +33,7 @@ export default function DigutopiaMain() {
     // 450
     if (width < 450) {
         return (
-            <div style={{ backgroundImage: 'url("/images/dugutopia/bgmobile.png")' }} className='bg-no-repeat bg-cover h-screen'>
+            <div style={{ backgroundImage: 'url("/images/dugutopia/bgmobile.png")' }} className='bg-no-repeat bg-cover h-screen overflow-y-hidden'>
 
                 <HeaderComponent image={'/images/dugutopia/Header.png'} />
 
