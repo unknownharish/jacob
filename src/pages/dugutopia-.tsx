@@ -37,7 +37,7 @@ export default function DigutopiaMain() {
 
                 <HeaderComponent image={'/images/dugutopia/Header.png'} />
 
-                <div className='p-10 mt-16 relative'>
+                <div className='p-10 mt-16 relative mb-24'>
 
                     <img
                         src='/images/dugutopia/mobilecard.png'
@@ -60,7 +60,7 @@ export default function DigutopiaMain() {
                     </div>
                 </div>
 
-                <div className='absolute bottom-0 w-full'>
+                <div className=' w-full '>
 
                     <FooterComponent />
 
