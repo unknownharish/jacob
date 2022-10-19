@@ -8,14 +8,14 @@ export default function PlayRedirect() {
 
             <img src="images/startup/play.png" className='h-5/6  mx-auto mt-24  ' alt="" />
 
-            <div className='h-[10vh] lg:h-[14vh] flex flex-col justify-center absolute bottom-10 md:bottom-5 w-full'>
+            <div className='h-[10vh] lg:h-[14vh] flex flex-col justify-center absolute bottom-2 md:bottom-2 w-full'>
 
-                <Link href='/play-'>
+                <Link href='/play-' className='mb-2'>
                     <img src="images/startup/Gobutton.png" className='cursor-pointer hover:brightness-110 w-40 m-auto ' alt="" />
                 </Link>
                 
                 <a href='http://friends.dugut.app' target='blank' className='mb-2'>
-                    <img src="images/startup/Connect.png" className='cursor-pointer hover:brightness-110 w-28 m-auto mt-2' alt="" />
+                    <img src="images/startup/Connect.png" className='cursor-pointer hover:brightness-110 w-28 mt-2 md:mt-0 m-auto' alt="" />
                 </a>
 
 
