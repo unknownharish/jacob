@@ -12,7 +12,7 @@ let style ={
         <div  className='bg-[#ff2ab7] h-screen flex flex-col overflow-y-hidden'>
 
 
-            <img src="images/startup/kids.png" className='h-full w-5/6 lg:w-4/6 m-auto p-10' alt="" />
+            <img src="images/startup/kids.png" className='h-full lg:w-4/6 m-auto ' alt="" />
 
             <div className='h-[10vh] flex flex-col justify-center absolute bottom-10 md:bottom-5 w-full'>
 
