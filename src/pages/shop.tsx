@@ -5,7 +5,7 @@ export default function Shop() {
         <div className='bg-[#cc0033] h-screen flex flex-col overflow-y-hidden'>
 
 
-            <img src="images/startup/shop.png" className='h-5/6  mx-auto mt-12  ' alt="" />
+            <img src="images/startup/shop.png" className='h-5/6 mx-auto mt-12 p-9 ' alt="" />
 
             <div className='h-[10vh] lg:h-[14vh] flex flex-col justify-center absolute bottom-4 md:bottom-3 w-full '>
 
