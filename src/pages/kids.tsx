@@ -14,7 +14,7 @@ export default function KidsRedirect() {
 
             <img src="images/startup/kids.png" className='h-full lg:w-4/6 m-auto ' alt="" />
 
-            <div className='h-[10vh] lg:h-[14vh] flex flex-col justify-center absolute bottom-2 md:bottom-2 w-full'>
+            <div className='h-[12vh] lg:h-[14vh] flex flex-col justify-center absolute bottom-5 md:bottom-6 w-full'>
 
                 <Link href='/kids-' className='mb-2'>
                     <img src="images/startup/Gobutton.png"  className='cursor-pointer hover:brightness-110 w-40 m-auto ' alt="" />

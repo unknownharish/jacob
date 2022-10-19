@@ -8,7 +8,7 @@ export default function SdgRedirect() {
 
             <img src="images/startup/sdg.png" className='h-5/6  mx-auto mt-8 p-1 ' alt="" />
 
-            <div className='h-[10vh] lg:h-[14vh] flex flex-col justify-center absolute bottom-2 md:bottom-2 w-full'>
+            <div className='h-[12vh] lg:h-[14vh] flex flex-col justify-center absolute bottom-5 md:bottom-6 w-full'>
 
                 <Link href='/sdg-' className='mb-2'>
                     <img src="images/startup/Gobutton.png" className='cursor-pointer hover:brightness-110 w-40 m-auto ' alt="" />

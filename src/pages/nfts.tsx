@@ -7,7 +7,7 @@ export default function Nfts() {
 
             <img src="images/startup/nft.png" className='h-5/6  mx-auto mt-24  ' alt="" />
 
-            <div className='h-[10vh] lg:h-[14vh] flex flex-col justify-center absolute bottom-2 md:bottom-2 w-full'>
+            <div className='h-[12vh] lg:h-[14vh] flex flex-col justify-center absolute bottom-5 md:bottom-6 w-full'>
 
                 <a href="http://actionist.dugutopia.com" target={'blank'} className='mb-2' >
 
