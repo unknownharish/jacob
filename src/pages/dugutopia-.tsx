@@ -33,7 +33,7 @@ export default function DigutopiaMain() {
     // 450
     if (width < 450) {
         return (
-            <div style={{ backgroundImage: 'url("/images/dugutopia/bgmobile.png")' }} className='bg-no-repeat bg-cover h-screen overflow-y-hidden'>
+            <div style={{ backgroundImage: 'url("/images/dugutopia/bgmobile.png")' }} className='bg-no-repeat bg-cover h-screen '>
 
                 <HeaderComponent image={'/images/dugutopia/Header.png'} />
 
