@@ -5,7 +5,7 @@ export default function Dugutopia() {
 
 
     return (
-        <div className='bg-[#0084b4] h-screen flex flex-col overflow-y-hidden'>
+        <div className='bg-[#0084b4] h-[95vh] flex flex-col'>
 
 
             <img src="images/startup/dugutopia.png" className='h-5/6 mx-auto mt-24  ' alt="" />
