@@ -16,7 +16,7 @@ export function MainComponent() {
       </div>
       <div className="flex flex-col items-center">
         <h1 className="text-[30px] mb-6 text-blue-pattern lg:mt-10">Stories</h1>
-        <div className="flex justify-center items-center gap-3 lg:gap-4">
+        <div className="flex justify-center flex-wrap items-center gap-3 lg:gap-4">
 
           <a href="https://elbarquitochiquitico.dugut.app/world-page/" target={'blank'}>
 
