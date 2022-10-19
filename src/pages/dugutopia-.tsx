@@ -33,7 +33,7 @@ export default function DigutopiaMain() {
     // 450
     if (width < 450) {
         return (
-            <div style={{ backgroundImage: 'url("/images/dugutopia/bgmobile.png")' }} className='bg-no-repeat bg-cover h-screen '>
+            <div style={{ backgroundImage: 'url("/images/dugutopia/bgmobile.png")' }} className='bg-no-repeat bg-cover h-[100vh] '>
 
                 <HeaderComponent image={'/images/dugutopia/Header.png'} />
 
@@ -60,7 +60,7 @@ export default function DigutopiaMain() {
                     </div>
                 </div>
 
-                <div className=' w-full '>
+                <div className=' w-full'>
 
                     <FooterComponent />
 
