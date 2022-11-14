@@ -4,13 +4,13 @@ import React from 'react'
 export default function Friends() {
 
 
-    return (
+    return ( 
         <div className='bg-[#c43538] h-screen ' >
 
 
-            <div className='flex justify-center  h-screen overflow-y-hidden p-8'>
+            <div className='flex justify-center  h-screen overflow-y-hidden p-8 '>
 
-                <img src="images/startup/friends.png" className='' alt="" />
+                <img src="images/startup/friends.png" className='object-cover' alt="" />
             </div>
             <div className='h-[18vh] flex flex-col justify-center absolute bottom-14 md:bottom-16 lg:bottom-15 w-full  '>
                
