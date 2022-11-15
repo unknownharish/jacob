@@ -10,7 +10,7 @@ export default function Friends() {
 
             <div className='flex justify-center  h-screen overflow-y-hidden p-8 '>
 
-                <img src="images/startup/friends.png" className='object-cover' alt="" />
+                <img src="images/startup/friends.png" className='object-contain' alt="" />
             </div>
             <div className='h-[18vh] flex flex-col justify-center absolute bottom-14 md:bottom-16 lg:bottom-15 w-full  '>
                
