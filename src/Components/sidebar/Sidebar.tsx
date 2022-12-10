@@ -28,14 +28,14 @@ export default function Sidebar({ open, setopen }: any) {
             <div className='bg-black px-2 text-white w-1/2 pt-10 fixed lg:w-2/6 md:px-16 md:pt-6 overflow-x-hidden absloute right-0'  >
 
 
-                <a href="https://www.wedugut.com" target={'_blank'} >
+                <Link href="/"  >
 
                     <div className='flex my-2 items-center cursor-pointer '>
 
                         <Image src={'/images/common/HOME_BUTTON.png'} height={80} width={80} />
                         <p className='ml-2 '>HOME</p>
                     </div>
-                </a>
+                </Link>
 
 
                 {/* <Link href="/action" > */}
