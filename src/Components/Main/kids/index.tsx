@@ -4,6 +4,9 @@ import React from "react";
 import CardComponent from "./card";
 
 export function MainComponent() {
+
+  const ytlinks = [{ link: 'https://youtu.be/gTWKGpDi57c', img: '/images/Kids/yt1.jpg',text:'Barquito chiquitico' }, { link: 'https://youtu.be/5vG5Bo2XK-c', img: '/images/Kids/yt2.jpg',text:'Si la tierra tierra fuera' }]
+
   return (
     <main className="flex-1 flex flex-col justify-center items-center">
       <div className="h-[300px] w-[350px]  lg:h-[350px] md:w-[600px] relative cursor-pointer md:mt-5 lg:mt-10">
@@ -53,6 +56,16 @@ export function MainComponent() {
 
 
 
+        </div>
+
+        <h1 className="text-[30px] mb-6 text-blue-pattern lg:mt-10">Links</h1>
+        <div className="flex justify-center flex-wrap">
+
+          {ytlinks.map((x, idx) => (
+            <a key={idx} className='m-5 flex flex-col justify-center items-center px-2 py-2  bg-purple-pattern rounded-lg relative cursor-pointer' href={x.link} target={'_blank'}>
+              <Image src={x.img} height={150} width={340} />
+              <p className="mt-3 text-white">{x.text}</p>
+            </a>))}
         </div>
       </div>
     </main>

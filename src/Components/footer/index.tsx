@@ -4,8 +4,14 @@ import { BsInstagram, BsTwitter } from "react-icons/bs";
 import { GrLinkedinOption } from "react-icons/gr";
 import { SiTiktok } from "react-icons/si";
 import { IconComponent } from "./icon";
+import { useRouter } from "next/router";
 
 export function FooterComponent() {
+
+
+  const router = useRouter()
+  // console.log(router.asPath)
+
   return (
     <div className="flex flex-col justify-center w-full mt-10">
       <p className="w-full m-auto text-center text-white text-[20px] font-light mb-5">
@@ -18,7 +24,7 @@ export function FooterComponent() {
         />
         <IconComponent
           icon={<BsInstagram size={30} />}
-          href={"https://www.instagram.com/wedugut/"}
+          href={router.asPath == '/kids-'?"https://www.instagram.com/wedugutkids/":"https://www.instagram.com/wedugut/"}
         />
         <IconComponent
           icon={<BsTwitter size={30} />}
@@ -27,7 +33,7 @@ export function FooterComponent() {
         />
         <IconComponent
           icon={<SiTiktok size={30} />}
-          href={"https://www.tiktok.com/@wedugut"}
+          href={router.asPath == '/kids-'?"https://www.tiktok.com/@wedugutkids":"https://www.tiktok.com/@wedugut"}
         />
         <IconComponent
           icon={<FaYoutube size={30} />}
