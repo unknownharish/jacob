@@ -64,7 +64,7 @@ export function MainComponent() {
           {ytlinks.map((x, idx) => (
 
 
-            <a key={idx} href={x.link} target={'_blank'} className='m-5 p-5 flex flex-col'>
+            <a key={idx} href={x.link} target={'_blank'} className='m-3 p-3 flex flex-col'>
 
               <CardComponent
                 image={x.img}
