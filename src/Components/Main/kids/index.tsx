@@ -5,7 +5,7 @@ import CardComponent from "./card";
 
 export function MainComponent() {
 
-  const ytlinks = [{ link: 'https://youtu.be/gTWKGpDi57c', img: '/images/Kids/yt1.jpg',text:'Barquito chiquitico' }, { link: 'https://youtu.be/5vG5Bo2XK-c', img: '/images/Kids/yt2.jpg',text:'Si la tierra tierra fuera' }]
+  const ytlinks = [{ link: 'https://youtu.be/gTWKGpDi57c', img: '/images/Kids/yt1.jpg', text: 'Barquito chiquitico' }, { link: 'https://youtu.be/5vG5Bo2XK-c', img: '/images/Kids/yt2.jpg', text: 'Si la tierra tierra fuera' }]
 
   return (
     <main className="flex-1 flex flex-col justify-center items-center">
@@ -62,10 +62,27 @@ export function MainComponent() {
         <div className="flex justify-center flex-wrap">
 
           {ytlinks.map((x, idx) => (
-            <a key={idx} className='m-5 flex flex-col justify-center items-center px-2 py-2  bg-purple-pattern rounded-lg relative cursor-pointer' href={x.link} target={'_blank'}>
-              <Image src={x.img} height={150} width={340} />
-              <p className="mt-3 text-white">{x.text}</p>
-            </a>))}
+
+
+            <a key={idx} href={x.link} target={'_blank'} className='m-5 p-5 flex flex-col'>
+
+              <CardComponent
+                image={x.img}
+                alt="Painel 1"
+                href=""
+              />
+                 <p className="mt-3 text-white text-3xl">{x.text}</p>
+
+            </a>
+          )
+          )}
+
+
+
+          
+            
+            
+            
         </div>
       </div>
     </main>
