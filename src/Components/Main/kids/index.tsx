@@ -70,7 +70,7 @@ export function MainComponent() {
                 <img src={x.img} alt=""  className=""/>
 
               </div>
-              <p className="mt-3 text-white text-3xl">{x.text}</p>
+              <p className="mt-3 text-sm text-white md:text-center md:text-3xl">{x.text}</p>
 
             </a>
           )
