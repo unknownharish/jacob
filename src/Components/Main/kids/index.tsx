@@ -58,22 +58,22 @@ export function MainComponent() {
 
         </div>
 
-        <h1 className="text-[30px] mb-6 text-blue-pattern lg:mt-10">Links</h1>
-        <div className="flex justify-center flex-wrap w-full  ">
+        <div className="flex justify-between flex-wrap w-10/12  ">
 
           {ytlinks.map((x, idx) => (
 
+            <div key={idx}>
+              <a href={x.link} target={'_blank'} className='m-4 px-2 flex flex-col'>
 
-            <a key={idx} href={x.link} target={'_blank'} className='m-3 p-3 flex flex-col'>
+                <div className="flex justify-center items-center px-2 py-2   bg-purple-pattern rounded-lg relative cursor-pointer">
+                  <img src={x.img} alt="" className="h-[250px] w-[150px] md:h-[300px] md:w-[200px]"
+                  />
 
-              <div className="flex justify-center items-center px-2 py-2   bg-purple-pattern rounded-lg relative cursor-pointer">
-                <img src={x.img} alt="" className="h-[250px] w-[150px] md:h-[300px] md:w-[200px]"
-/>
+                </div>
 
-              </div>
-              <p className="mt-3 text-sm text-white text-center md:text-3xl">{x.text}</p>
-
-            </a>
+              </a>
+              <p className="mt-3 text-sm text-white text-center md:text-2xl">{x.text}</p>
+            </div>
           )
           )}
 
