@@ -11,11 +11,11 @@ export default function MainHomepage() {
     return (
         <div className='h-screen overflow-y-hidden'>
 
-            <div className=' absolute top-14 w-full flex justify-center px-4'>
-                <Image src="/images/startup/splashLogo.png" height={150} width={500} />
+            <div className=' absolute top-12 w-full flex justify-center px-4 lg:hidden'>
+                <Image  src="/images/startup/splashLogo.png" height={150} width={500} />
             </div>
             {/* object-cover */}
-            <img src="images/startup/main.png" className='h-screen w-screen  object-cover lg:object-fill' alt="" />
+            <img src="images/startup/main.png" className='h-screen w-screen  object-cover lg:object-bottom ' alt="" />
 
             <div className='h-[10vh] flex flex-col justify-center absolute bottom-10 w-full'>
 

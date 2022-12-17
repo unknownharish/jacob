@@ -58,7 +58,7 @@ export function MainComponent() {
 
         </div>
 
-        <div className="flex justify-between flex-wrap w-10/12  ">
+        <div className="flex justify-center md:justify-between flex-wrap  md:w-10/12 mt-5 ">
 
           {ytlinks.map((x, idx) => (
 
