@@ -88,7 +88,7 @@ export default function DigutopiaMain() {
             </div>
 
 
-            <div className='flex flex-wrap w-full  justify-center md:mt-16 lg:mt-0  '>
+            <div className='flex flex-wrap w-full  justify-center md:mt-16 lg:mt-10  '>
 
                 {cardImage.map((x, idx) => (
 
