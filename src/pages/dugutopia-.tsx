@@ -31,22 +31,22 @@ export default function DigutopiaMain() {
 
 
     // 450
-    if (width < 815) {
+    if (width < 900) {
         return (
             <div style={{ backgroundImage: 'url("/images/dugutopia/bgmobile.png")' }} className='bg-no-repeat bg-cover h-[100vh] '>
 
                 <HeaderComponent image={'/images/dugutopia/Header.png'} />
 
-                <div className='p-10 sm:p-36 mt-12 relative'>
+                <div className='p-10 sm:p-36 h-[70vh]'>
 
                     <img
                         src='/images/dugutopia/mobilecard.png'
                         alt=""
-                        className=''
+                        className='w-11/12'
 
                     />
 
-                    <div className='absolute top-[77%] left-[30%] sm:left-[40%] '>
+                    <div className=' -mt-16  flex justify-center '>
 
                         <Link href={'/'}>
                             <Image
@@ -79,7 +79,7 @@ export default function DigutopiaMain() {
             <HeaderComponent image={'/images/dugutopia/Header.png'} />
 
 
-            <div className='ml-40 mt-5'>
+            <div className='flex justify-center items-center h-40 '>
                 <Image
                     src={'/images/dugutopia/Logo.png'}
                     height={150}

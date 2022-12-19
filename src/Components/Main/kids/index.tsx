@@ -58,7 +58,7 @@ export function MainComponent() {
 
         </div>
 
-        <div className="flex justify-center md:justify-between flex-wrap  md:w-full mt-5 ">
+        <div className="flex justify-center w-10/12 sm:w-5/12 lg:w-4/12 md:justify-between flex-wrap   mt-5 ">
 
           {ytlinks.map((x, idx) => (
 
@@ -66,7 +66,7 @@ export function MainComponent() {
               <a href={x.link} target={'_blank'} className='m-4 px-2 flex flex-col'>
 
                 <div className="flex justify-center items-center px-2 py-2   bg-purple-pattern rounded-lg relative cursor-pointer">
-                  <img src={x.img} alt="" className="h-[20vh] w-[55vw] md:h-[20vh] md:w-[30vw] lg:w-[26vw] lg:h-[25vh]"
+                  <img src={x.img} alt="" className=""
                   />
 
                 </div>
