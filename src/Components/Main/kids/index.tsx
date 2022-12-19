@@ -66,7 +66,7 @@ export function MainComponent() {
               <a href={x.link} target={'_blank'} className='m-4 px-2 flex flex-col'>
 
                 <div className="flex justify-center items-center px-2 py-2   bg-purple-pattern rounded-lg relative cursor-pointer">
-                  <img src={x.img} alt="" className="hover:brightness-110"
+                  <img src={x.img} alt="" className="hover:brightness-110 rounded-md"
                   />
 
                 </div>
