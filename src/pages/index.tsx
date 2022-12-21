@@ -14,10 +14,7 @@ export default function MainHomepage() {
             <div className=' absolute top-12 w-full flex justify-center px-4 '>
                 <Image  src="/images/startup/splashLogo.png" height={130} width={500} />
             </div>
-            {/* <div className=' absolute top-10 left-5 w-full hidden justify-center px-4 xl:flex'>
-                <Image  src="/images/startup/splashLogo.png" height={50} width={200} />
-            </div> */}
-            {/* object-cover */}
+         
             <img src="images/startup/main.png" className='h-screen w-screen  object-cover  ' alt="" />
 
             <div className='h-[10vh] flex flex-col justify-center absolute bottom-10 w-full'>
