@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import { RWebShare } from 'react-web-share'
 
 export default function TakeAction() {
 
@@ -78,14 +79,22 @@ export default function TakeAction() {
                             (+1 Minute)
                         </p>
 
-                        <a href="https://friends.dugut.app " target={'blank'} className='mt-8 -mb-8 '>
-
+                        <RWebShare
+                            data={{
+                                text: "Make this campaign more sucessful",
+                                url: "https://vou.dugut.app/world-page",
+                                title: "Invite your friends",
+                            }}
+                            onClick={() => console.log("!")}
+                        >
                             <Image src='/images/takeaction/GOButton.png'
                                 height='75'
                                 width='200'
                                 className='hover:brightness-110 cursor-pointer'
                             />
-                        </a>
+
+                        </RWebShare>
+
                     </div>
                 </div>
 

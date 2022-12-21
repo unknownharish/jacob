@@ -85,7 +85,7 @@ export default function Journey() {
                                             url: `${x.href}`,
                                             title: `${x.head}`,
                                         }}
-                                        onClick={() => console.log("shared successfully!")}
+                                        onClick={() => console.log("")}
                                     >
                                         <Image src={'/images/journey/SHAREBUTTON.png'} height={50} width={150} className='cursor-pointer hover:brightness-110' />
 
