@@ -81,7 +81,7 @@ export default function Journey() {
 
                                     <RWebShare
                                         data={{
-                                            text: `${x.head}`,
+                                            text: `Join us in taking action, when you finish this journey you will unlock a sponsored donation for a specific sustainable action, Let's be part of the solution together:`,
                                             url: `${x.href}`,
                                             title: `${x.head}`,
                                         }}

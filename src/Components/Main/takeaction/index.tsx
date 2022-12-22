@@ -73,7 +73,6 @@ export default function TakeAction() {
                     <div className='flex flex-col w-52 mx-3 text-white justify-center items-center'>
                         <p className=' mt-1 text-xs md:text-sm w-full ml-8'>
                         Share a sustainable journey with friends!
-
                         </p>
                         <p className='text-xs md:text-sm w-full ml-8 mb-2 '>
                             (+1 Minute)
@@ -81,7 +80,7 @@ export default function TakeAction() {
 
                         <RWebShare
                             data={{
-                                text: "Make this campaign more sucessful",
+                                text: "Junte-se a nós para tomar medidas que permitam aos jovens estudantes Portugueses fazer do mundo um lugar melhor!  /  Join us in taking action to enable young Portugese students to make the world a better place!:",
                                 url: "https://vou.dugut.app/world-page",
                                 title: "Invite your friends",
                             }}
