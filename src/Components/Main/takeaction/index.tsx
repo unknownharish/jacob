@@ -45,7 +45,7 @@ export default function TakeAction() {
                     />
 
                     <div className='flex flex-col w-52 mx-3 text-white justify-center items-center'>
-                        <p className=' my-1 ml-2 text-xs md:text-sm'>{imgs[0].text}</p>
+                        <p className=' my-1 ml-2 text-xs md:text-sm mb-2'>{imgs[0].text}</p>
 
                         <Link href='/journey' className='mt-8 -mb-8  '>
 
@@ -72,10 +72,10 @@ export default function TakeAction() {
 
                     <div className='flex flex-col w-52 mx-3 text-white justify-center items-center'>
                         <p className=' mt-1 text-xs md:text-sm w-full ml-8'>
-                            Invite 5 friends!
+                        Share a sustainable journey with friends!
 
                         </p>
-                        <p className='text-xs md:text-sm w-full ml-8 '>
+                        <p className='text-xs md:text-sm w-full ml-8 mb-2 '>
                             (+1 Minute)
                         </p>
 
@@ -86,11 +86,13 @@ export default function TakeAction() {
                                 title: "Invite your friends",
                             }}
                             onClick={() => console.log("!")}
+
+                        
                         >
                             <Image src='/images/takeaction/GOButton.png'
                                 height='75'
                                 width='200'
-                                className='hover:brightness-110 cursor-pointer'
+                                className='hover:brightness-110 cursor-pointer '
                             />
 
                         </RWebShare>
