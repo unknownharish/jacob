@@ -59,7 +59,7 @@ export default function MainDonation() {
 
                   <a href='' target={'blank'}>
 
-                  <Image src={'/images/journey/SHAREBUTTON.png'} height={50} width={150} className='cursor-pointer hover:brightness-110 ' />
+                  <Image src={'/images/journey/SHAREBUTTON.png'} height={50} width={150} className='cursor-pointer hover:brightness-110  ' />
 
                   </a>
 
