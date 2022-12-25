@@ -46,7 +46,6 @@ export default function MainDonation() {
 
                 <div className='flex flex-col w-52 mx-2 text-white justify-center items-center'>
                   <p className='text-left my-1 ml-5 text-xs md:text-sm'>{x.text}</p>
-                  <p className='text-left w-full ml-10 font-bold'>Donate Now!</p>
 
 
                   <a href={x.href} target={'blank'} className='mt-3 hover:brightness-110'>

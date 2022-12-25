@@ -57,7 +57,7 @@ export default function Action() {
                         <Image
                             src={"/images/action/SHOP_BUTTON.webp"}
                             alt="Shop Button"
-                            layout="fill"mx-2
+                            layout="fill"
                             objectFit="contain"
                         />
                     </div>
@@ -67,6 +67,16 @@ export default function Action() {
                     <div className="w-[180px] h-[300px]  lg:h-[265px] lg:w-[220px] cursor-pointer hover:brightness-110 relative">
                         <Image
                             src={"/images/action/SDGs.webp"}
+                            alt="SDG"
+                            layout="fill"
+                            objectFit="contain"
+                        />
+                    </div>
+                </Link>
+                <Link href="/donation" target={'blank'}>
+                    <div className="w-[180px] h-[300px]  lg:h-[265px] lg:w-[220px] cursor-pointer hover:brightness-110 relative">
+                        <Image
+                            src={"/images/donation/button.png"}
                             alt="SDG"
                             layout="fill"
                             objectFit="contain"
