@@ -74,7 +74,7 @@ export default function Action() {
                     </div>
                 </Link>
                 <Link href="/donation" target={'blank'}>
-                    <div className="w-[180px] h-[300px]  lg:h-[265px] lg:w-[220px] md:mt-2 cursor-pointer hover:brightness-110 relative">
+                    <div className="w-[180px] h-[300px]  lg:h-[245px] lg:w-[215px] md:mt-6  cursor-pointer hover:brightness-110 relative">
                         <Image
                             src={"/images/donation/donatebutton.png"}
                             alt="SDG"
