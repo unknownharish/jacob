@@ -7,7 +7,7 @@ export default function TakeAction() {
 
 
     let imgs = [
-        { src: '/images/takeaction/Journey.png', text: 'Go on a journey to learn about sustainable issue and solutions! (+15Minutes)', },
+        { src: '/images/takeaction/Journey.png', text: 'Go on a journey to learn about sustainable issue and solutions! (+15 Minutes)', },
         { src: '/images/takeaction/Invite Friends.png', text: 'Invite 5 friends! (+1 Minute)' },
         { src: '/images/takeaction/Newsletter.png', text: 'Subscribe to our news letter! (Direct)' }
     ]
