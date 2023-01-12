@@ -53,7 +53,7 @@ export default function Journey() {
                     <div className='flex flex-wrap m-3 items-center justify-center px-2 md:px-0 '>
 
                         {imgs.map((x, idx) => (
-                            <div key={idx} className='flex m-10 mb-8  h-[50vh]'>
+                            <div key={idx} className='flex m-10 mb-8 '>
 
 
                                 <a href={x.href} target={'blank'}>
