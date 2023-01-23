@@ -72,7 +72,7 @@ export default function YtMain({ data }) {
 export async function getServerSideProps() {
 
 
-    let { data } = await axios.get('/api/getRecord')
+    let { data } = await axios.get('https://jacob-unknownharish.vercel.app/api/getRecord')
     // console.log(data);
     return {
         props: {

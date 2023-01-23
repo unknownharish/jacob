@@ -13,7 +13,7 @@ export default function Personalscreen() {
     useEffect(() => {
 
         async function get() {
-            let { data } = await axios.get('/api/getRecord')
+            let { data } = await axios.get('https://jacob-unknownharish.vercel.app/api/getRecord')
             dispatch(addRecords(data))
         }
         get()
@@ -22,7 +22,7 @@ export default function Personalscreen() {
 
     async function deleteit(_id) {
 
-        let { data } = await axios.get(`/api/delete/${_id}`)
+        let { data } = await axios.get(`https://jacob-unknownharish.vercel.app/api/delete/${_id}`)
         dispatch(deleteRecods(_id))
 
     }
@@ -96,7 +96,7 @@ function AddLink() {
         try {
 
 
-            let { data } = await axios.post('/api/insert', {
+            let { data } = await axios.post('https://jacob-unknownharish.vercel.app/api/insert', {
                 name,
                 link: ytlink,
                 text
