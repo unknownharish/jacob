@@ -72,7 +72,7 @@ export default function YtMain({ data }) {
 export async function getServerSideProps() {
 
 
-    let { data } = await axios.get('http://localhost:3000/api/getRecord')
+    let { data } = await axios.get('/api/getRecord')
     // console.log(data);
     return {
         props: {
