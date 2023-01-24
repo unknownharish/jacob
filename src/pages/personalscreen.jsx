@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React from 'react'
+import { useLayoutEffect } from 'react'
 import { useState } from 'react'
 import { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
@@ -9,15 +10,22 @@ export default function Personalscreen() {
 
     let show = useSelector(x => x.store.allRecords)
     let dispatch = useDispatch()
+    // let data3 =0
 
-    useEffect(() => {
+    useLayoutEffect(() => {
 
         async function get() {
             let { data } = await axios.get('https://jacob-unknownharish.vercel.app/api/getRecord')
+
+            console.log('data',data)
             dispatch(addRecords(data))
         }
         get()
+
+
     }, [])
+
+    console.log('inside shows render: ',show);
 
 
     async function deleteit(_id) {
@@ -145,3 +153,7 @@ function AddLink() {
     </div>
 
 }
+
+
+React.memo(AddLink)
+React.memo(Personalscreen)

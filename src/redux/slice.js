@@ -19,6 +19,7 @@ export const counterSlice = createSlice({
 
     addRecords: (state, actions) => {
 
+      console.log('add records ',actions.payload)
       state.loading = true;
       if (state.allRecords.length == 0) {
         state.allRecords = [...actions.payload]
@@ -43,7 +44,7 @@ export const counterSlice = createSlice({
     },
 
     deleteRecods: (state, actions) => {
-      console.log('in delete records',actions)
+      console.log('in delete records', actions)
       state.allRecords = state.allRecords.filter(x => x._id !== actions.payload)
     }
   }
