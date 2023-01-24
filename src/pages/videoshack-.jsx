@@ -76,7 +76,7 @@ export default function YtMain({ data }) {
                         tiktok.map(x => {
 
                             return <div className='flex flex-col p-5 md:w-5/12 m-5'>
-                                <iframe width="370" height="225" src={`https://www.tiktok.com/embed/${x.link}`} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+                                <iframe width="370" height="350" src={`https://www.tiktok.com/embed/${x.link}`} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
                                 <p className='my-3 w-full md:w-10/12'>{x.text}</p>
                             </div>
                         })
