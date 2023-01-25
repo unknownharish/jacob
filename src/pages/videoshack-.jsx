@@ -5,7 +5,6 @@ import Script from 'next/script'
 import { useEffect, useState } from 'react'
 import { useSelector, useDispatch, } from 'react-redux'
 import { HeaderComponent } from '../Components/header'
-import TikTokEmbedded from '../Components/tiktok/toktok'
 
 export default function YtMain({ data }) {
 
@@ -76,7 +75,10 @@ export default function YtMain({ data }) {
                     {
                         tiktok.map(x => {
 
-                            return < TikTokEmbedded key={x.link} videoUrl={`https://www.tiktok.com/wedugut/video/${x.link}`} />
+                            return <div className='flex flex-col p-5 md:w-5/12 m-5'>
+                                <iframe width="370" height="470" src={`https://www.tiktok.com/wedugut/video/${x.link}`} title="Tiktok video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+                                <p className='my-3 w-full md:w-10/12'>{x.text}</p>
+                            </div>
                         })
                     }
 
