@@ -45,7 +45,7 @@ export default function HomePageComponent() {
           </div>
         </Link>
 
-        <div className="-mt-8 w-[180px] h-[300px] lg:h-[350px] lg:w-[220px] cursor-pointer hover:opacity-120 hover:brightness-110 relative">
+        <div className="-mt-6 md:-mt-8 w-[180px] h-[300px] lg:h-[350px] lg:w-[220px] cursor-pointer hover:opacity-120 hover:brightness-110 relative">
           <Image
             src={"/images/homePage/kids.webp"}
             alt="Kids"
@@ -85,7 +85,7 @@ export default function HomePageComponent() {
         </Link>
 
         <Link href='/shop'>
-          <div className="mb-10 lg:flex w-[180px] h-[300px] lg:h-[300px] lg:w-[220px] lg:mt-4 cursor-pointer hover:opacity-120 hover:brightness-110 relative">
+          <div className="mb-5 md:mb-10 lg:flex w-[180px] h-[300px] lg:h-[300px] lg:w-[220px] lg:mt-4 cursor-pointer hover:opacity-120 hover:brightness-110 relative">
             <Image
               src={"/images/homePage/SHOP_BUTTON.webp"}
               alt="Shop Button"
