@@ -46,10 +46,10 @@ export default function HomePageComponent() {
         </Link>
 
 
-        <Link href='/dugutopia'>
+        <Link href='/donation'>
           <div className="w-[180px] h-[300px] lg:h-[350px] lg:w-[220px] cursor-pointer hover:opacity-120 hover:brightness-110 relative">
             <Image
-              src={"/images/homePage/dugotopia.webp"}
+              src={"/images/donation/donatebutton.png"}
               alt="Dugotopia"
               layout="fill"
               objectFit="contain"
@@ -68,10 +68,10 @@ export default function HomePageComponent() {
           />
         </div>
 
-        <Link href='/nfts'>
+        <Link href='/videoshack'>
           <div className="  lg:flex w-[180px] h-[300px] lg:h-[350px] lg:w-[220px] cursor-pointer hover:opacity-120 hover:brightness-110 relative">
             <Image
-              src={"/images/homePage/nft.webp"}
+              src={"/images/homePage/videoshack.png"}
               alt="Nft"
               layout="fill"
               objectFit="contain"
