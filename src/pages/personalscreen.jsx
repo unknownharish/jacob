@@ -131,13 +131,13 @@ function AddLink() {
 
         <div className='flex flex-col justify-center items-center lg:w-6/12 md:w-5/12 w-11/12'>
             <p className='text-3xl'>Create Data </p>
-            <div className='flex justify-center my-10 p-5 items-center bg-gray-500 w-3/6 flex-wrap rounded-lg'>
+            <div className='flex justify-center my-10 p-5 items-center bg-gray-500 w-3/6 flex-wrap rounded-lg text-black'>
 
                 <form onSubmit={(e) => handleSubmit(e)} className='flex flex-col justify-center items-center'>
 
-                    <input className='p-1 m-1 w-10/12 md:w-full md:p-3 md:m-2 rounded-md text-white' placeholder='Name' value={name} onChange={(e) => { setname(e.target.value) }} type="text" name="" id="" />
-                    <input className='p-1 m-1 w-10/12 md:w-full md:p-3 md:m-2 rounded-md text-white' placeholder='Link Code' value={ytlink} onChange={(e) => { setytlink(e.target.value) }} type="text" name="" id="" /><br />
-                    <input className='p-1 m-1 w-10/12 md:w-full md:p-3 md:m-2 rounded-md text-white' placeholder='Display Text' value={text} onChange={(e) => { settext(e.target.value) }} type="text" name="" id="" /><br />
+                    <input className='bg-black p-1 m-1 w-10/12 md:w-full md:p-3 md:m-2 rounded-md text-white' placeholder='Name' value={name} onChange={(e) => { setname(e.target.value) }} type="text" name="" id="" />
+                    <input className='bg-black p-1 m-1 w-10/12 md:w-full md:p-3 md:m-2 rounded-md text-white' placeholder='Link Code' value={ytlink} onChange={(e) => { setytlink(e.target.value) }} type="text" name="" id="" /><br />
+                    <input className='bg-black p-1 m-1 w-10/12 md:w-full md:p-3 md:m-2 rounded-md text-white' placeholder='Display Text' value={text} onChange={(e) => { settext(e.target.value) }} type="text" name="" id="" /><br />
 
 
 
