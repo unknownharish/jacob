@@ -15,7 +15,7 @@ export default function Personalscreen() {
     useLayoutEffect(() => {
 
         async function get() {
-            let { data } = await axios.get('https://jacob-unknownharish.vercel.app/api/getRecord')
+            let { data } = await axios.get('https://updatedugutest-harish.vercel.app/api/getRecord')
 
             console.log('data',data)
             dispatch(addRecords(data))
@@ -30,7 +30,7 @@ export default function Personalscreen() {
 
     async function deleteit(_id) {
 
-        let { data } = await axios.get(`https://jacob-unknownharish.vercel.app/api/delete/${_id}`)
+        let { data } = await axios.get(`https://updatedugutest-harish.vercel.app/api/delete/${_id}`)
         dispatch(deleteRecods(_id))
 
     }
@@ -104,7 +104,7 @@ function AddLink() {
         try {
 
 
-            let { data } = await axios.post('https://jacob-unknownharish.vercel.app/api/insert', {
+            let { data } = await axios.post('https://updatedugutest-harish.vercel.app/api/insert', {
                 name,
                 link: ytlink,
                 text

@@ -1,15 +1,21 @@
 import Script from "next/script";
 import React, { useState } from "react";
-import LayoutComponent from "../Components/Layout";
+import { FooterComponent } from "../Components/footer";
+import { HeaderComponent } from "../Components/header";
 import PLayComponent from "../Components/Main/play";
 export default function Play() {
     return (
         <>
-            <LayoutComponent>
+
+
+            <HeaderComponent image={'/images/homePage/Logo.webp'} />
+
+            <div className="bg-play">
 
                 <PLayComponent />
+                <FooterComponent />
 
-            </LayoutComponent>
+            </div>
 
             <Script strategy='afterInteractive' src="https://www.googletagmanager.com/gtag/js?id=G-0GMXD0ECE2"></Script>
             <Script

@@ -1,21 +1,24 @@
+import Image from 'next/image'
 import Script from 'next/script'
 import React from 'react'
+import { FooterComponent } from '../Components/footer'
 import { HeaderComponent } from '../Components/header'
-import LayoutComponent from '../Components/Layout'
-import SdgComponent from '../Components/Main/sdg'
+import Journey from '../Components/Main/journey'
 
-export default function Sdg() {
+export default function JourneyMain() {
     return (
         <>
+            <HeaderComponent image='/images/journey/takeactionheader.png' />
 
-            <HeaderComponent image={'/images/homePage/Logo.webp'} />
+            <Journey />
 
+            {/* footer  */}
+            <div >
+                <img
+                    src={'/images/journey/footer.png'}
 
-            <div className='bg-sdg -mt-4 '>
-
-                <SdgComponent />
+                />
             </div>
-
 
             <Script strategy='afterInteractive' src="https://www.googletagmanager.com/gtag/js?id=G-0GMXD0ECE2"></Script>
             <Script
@@ -31,5 +34,6 @@ export default function Sdg() {
                 }}
             />
         </>
+
     )
 }
