@@ -8,7 +8,7 @@ import Journey from '../Components/Main/journey'
 export default function JourneyMain() {
     return (
         <>
-            <HeaderComponent image='/images/journey/takeactionheader.png' />
+            <HeaderComponent image={'/images/homePage/Logo.webp'} />
 
             <Journey />
 

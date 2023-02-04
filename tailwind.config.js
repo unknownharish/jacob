@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       backgroundImage: {
 
-        'startupmain': "url('/images/startup/main.png')",  
+        'startupmain': "url('/images/startup/main.webp')",  
         'mobile': "url('/images/Kids/BackgroundMobile.png')",  
         'web':"url('/images/Kids/BackgroundWeb.png')",
         'actionModal':"url('/images/action/modal-bg.png')",
@@ -14,6 +14,8 @@ module.exports = {
         "play":"url('/images/play/bg-game.webp')",
         "sdg":"url('/images/sdg/bg-sdg.webp')",
         "donation":"url('/images/donation/bg-donation.webp')",
+        "mainbg":"url('/images/startup/mainbg.webp')",
+        "action-":"url('/images/startup/action-bg.webp')",
       },
       colors: {
         'header-pattern': 'black',

@@ -73,7 +73,7 @@ export default function Journey() {
 
                                     <a href={x.href} target={'blank'} className='mt-3 hover:brightness-110'>
 
-                                        <Image src='/images/takeaction/GOButton.png'
+                                        <Image src='/images/takeaction/GOButton.webp'
                                             height='75'
                                             width='180'
                                         />
@@ -87,7 +87,7 @@ export default function Journey() {
                                         }}
                                         onClick={() => console.log("")}
                                     >
-                                        <Image src={'/images/journey/SHAREBUTTON.png'} height={50} width={150} className='cursor-pointer hover:brightness-110' />
+                                        <Image src={'/images/journey/SHAREBUTTON.webp'} height={50} width={150} className='cursor-pointer hover:brightness-110' />
 
                                     </RWebShare>
                                 </div>

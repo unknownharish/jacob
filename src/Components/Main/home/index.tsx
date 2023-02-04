@@ -10,7 +10,7 @@ export default function HomePageComponent() {
 
 
   return (
-    <div className="flex-1 flex flex-col justify-center items-center">
+    <div className="flex-1 flex flex-col justify-center items-center h-screen">
       <h1 className="text-[2.2rem] lg:text-[3.3rem] w-[95%] tracking-wide text-white text-center mt-[3rem] lg:w-[600px]">
         CHANGE YOUR FUTURE
         <p> 1 MICRO-ACTION  </p>

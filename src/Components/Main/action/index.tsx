@@ -9,9 +9,14 @@ export default function Action() {
 
     return (
         <div className="flex-1 flex flex-col justify-center items-center">
-            <h1 style={{ color: '#97b229' }} className="text-[1.2rem] lg:text-[2rem] w-[95%] tracking-wide text-center mt-[3rem] lg:w-[600px]">
-                Take Real-Life Micro Actions For Free!
-            </h1>
+            <div className="h-[300px] w-[350px]  lg:h-[350px] md:w-[600px] relative cursor-pointer md:mt-5 lg:mt-10">
+                <Image
+                    src="/images/action/actionpagetext.webp"
+                    alt="Logo Weguut"
+                    layout="fill"
+                    objectFit="contain"
+                />
+            </div>
             {/* logos */}
             <div className="flex justify-center items-center flex-wrap animate-openMenu">
 
