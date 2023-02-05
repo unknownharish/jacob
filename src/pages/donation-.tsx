@@ -12,7 +12,7 @@ export default function DonationRedirect() {
     <>
       <HeaderComponent image={'/images/homePage/Logo.webp'} />
 
-      <div className='bg-donation bg-cover'>
+      <div className='bg-donation bg-center bg-cover'>
 
         <MainDonation />
       </div>

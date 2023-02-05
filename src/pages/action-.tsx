@@ -13,7 +13,7 @@ export default function ActionPage() {
     return (
         <>
             <HeaderComponent image={'/images/homePage/Logo.webp'} />
-            <div className="bg-action- bg-center bg-contain">
+            <div className="bg-action- bg-center bg-cover">
 
                 <ActionMain />
                 <FooterComponent />

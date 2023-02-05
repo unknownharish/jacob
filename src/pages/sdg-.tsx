@@ -11,7 +11,7 @@ export default function Sdg() {
             <HeaderComponent image={'/images/homePage/Logo.webp'} />
 
 
-            <div className='bg-sdg -mt-4 '>
+            <div className='bg-sdg -mt-4 bg-center bg-cover'>
 
                 <SdgComponent />
             </div>

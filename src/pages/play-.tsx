@@ -10,7 +10,7 @@ export default function Play() {
 
             <HeaderComponent image={'/images/homePage/Logo.webp'} />
 
-            <div className="bg-play">
+            <div className="bg-play bg-center bg-cover">
 
                 <PLayComponent />
                 <FooterComponent />
