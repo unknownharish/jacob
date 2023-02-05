@@ -9,7 +9,7 @@ export default function MainHomepage() {
     }
 
     return (
-        <div className='h-screen bg-startupmain bg-center bg-contain'>
+        <div className='h-screen bg-startupmain bg-center bg-cover'>
 
             <div className=' absolute top-8 w-full flex justify-center px-4 '>
                 <Image  src="/images/startup/splashLogo.webp" height={180} width={500} />
