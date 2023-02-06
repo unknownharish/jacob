@@ -30,6 +30,9 @@ export default function Sidebar({ open, setopen }: any) {
         { link: 'shop', text: 'SHOP', image: '/images/common/SHOP_ICON.png' },
         { link: 'videoshack', text: 'VIDEOS', image: '/images/common/SHOP_ICON.png' },
         { link: 'donation', text: 'DONATE', image: '/images/common/SHOP_ICON.png' },
+        { a: 1, link: 'http://company.wedugut.com', text: 'ABOUT US', image: '/images/common/SHOP_ICON.png' },
+        { a: 1, link: 'mailto:business@dugut.app', text: 'CONTACT US', image: '/images/common/SHOP_ICON.png' },
+        { a: 1, link: 'https://www.dugut.org', text: 'JOBS', image: '/images/common/SHOP_ICON.png' },
     ]
 
 
@@ -45,14 +48,25 @@ export default function Sidebar({ open, setopen }: any) {
                 {headerLinks.map((x, idx) => {
 
 
+
+                    if (x.a) {
+                        return (
+                            <a href={x.link} target={'blank'}>
+                                <div className='flex my-2 items-center cursor-pointer '>
+                                <p className='  my-3 font-bold ml-[36px] lg:ml-[68px] text-md md:text-lg'>{x.text}</p>
+                                </div>
+                            </a>
+                        )
+                    }
+
                     return (
 
-                        <Link key={idx} href={"/"+x.link}  >
+                        <Link key={idx} href={"/" + x.link}  >
 
                             <div className='flex my-2 items-center cursor-pointer '>
 
                                 {/* <Image src={x.image} height={80} width={80} /> */}
-                                <p className='  my-3 font-bold ml-[100px]'>{x.text}</p>
+                                <p className='  my-3 font-bold ml-[36px] lg:ml-[68px] text-md md:text-lg'>{x.text}</p>
                             </div>
                         </Link>
                     )
@@ -105,7 +119,7 @@ export default function Sidebar({ open, setopen }: any) {
                         <p className='ml-2'>NFTs</p>
                     </div>
                 </Link> */}
-{/* 
+                {/* 
                 <Link href="/shop" >
 
                     <div className='flex my-2 items-center cursor-pointer'>
@@ -133,7 +147,7 @@ export default function Sidebar({ open, setopen }: any) {
 
 
 
-
+{/* 
                 <div className='flex flex-col text-xs md:text-sm  justify-center w-3/4 text-md mx-4 mt-8 md:my-2  md:mt-4  '>
 
                     <div className='flex justify-around items-center w-[100%] '>
@@ -141,7 +155,7 @@ export default function Sidebar({ open, setopen }: any) {
 
                         <div className='cursor-pointer w-[70%] '>
                             <a href="http://company.wedugut.com" target={'blank'}>
-                                <p >ABOUT US</p>
+                                <p className='font-bold my-3 text-md md:text-lg'>ABOUT US</p>
                             </a>
                         </div>
 
@@ -152,7 +166,7 @@ export default function Sidebar({ open, setopen }: any) {
 
                         <div className='cursor-pointer w-[70%] '>
                             <a href='mailto:business@dugut.app'>
-                                <p >CONTACT US</p>
+                                <p className='font-bold my-3 text-md md:text-lg'>CONTACT US</p>
                             </a>
                         </div>
 
@@ -163,7 +177,7 @@ export default function Sidebar({ open, setopen }: any) {
 
                         <div className='cursor-pointer w-[70%] '>
                             <a href='https://www.dugut.org' target={'blank'}>
-                                <p >JOBS</p>
+                                <p className='font-bold my-3 text-md md:text-lg'>JOBS</p>
                             </a>
                         </div>
 
@@ -171,7 +185,7 @@ export default function Sidebar({ open, setopen }: any) {
                     </div>
 
 
-                </div>
+                </div> */}
 
                 <p className='text-center font-light mt-6 mb-2  md:w-3/4 md:mt-2 md:ml-8 '>Connect With us:</p>
 

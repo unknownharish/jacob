@@ -51,7 +51,7 @@ export default function MainDonation() {
                   />
                 </a>
 
-                <div className='flex flex-col w-52 mx-2 text-white justify-center items-center'>
+                <div className='flex flex-col w-52 mx-2  justify-center items-center'>
                   <p className='text-left my-1 ml-5 text-xs md:text-sm'>{x.text}</p>
 
 

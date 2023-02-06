@@ -7,7 +7,7 @@ export default function Journey() {
 
 
 
-            <img src="images/prejourney/takejourney.webp" className=' w-8/12 lg:w-6/12 h-screen m-auto ' alt="" />
+            <img src="images/prejourney/takejourney.webp" className=' w-8/12 lg:w-6/12 lg:h-screen m-auto ' alt="" />
 
             <div className='h-[12vh] lg:h-[14vh] flex flex-col justify-center absolute bottom-5 md:bottom-6 w-full'>
 

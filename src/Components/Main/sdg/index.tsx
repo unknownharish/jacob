@@ -94,7 +94,7 @@ export default function SdgComponent() {
 
 
   return (
-    <div className=''>
+    <div className='bg-gradient-to-t from-white to-cyan-300'>
 
       <div className=' flex justify-center items-center w-1/2 h-1/4  mx-auto mt-5'>
 
