@@ -33,7 +33,7 @@ export default function YtMain({ data }) {
 
 
             <HeaderComponent image={'/images/homePage/Logo.webp'} />
-            <div className='  bg-[#f4f481] w-[100vw] min-h-screen '>
+            <div className=' bg-gradient-to-t from-white to-cyan-300 w-[100vw] min-h-screen '>
 
                 <div className='flex justify-center items-center'>
                     <Image

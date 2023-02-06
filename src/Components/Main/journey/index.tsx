@@ -31,10 +31,10 @@ export default function Journey() {
 
 
     return (
-        <>
+        <div>
 
 
-            <div className=' w-screen min-h-screen bg-journey'>
+            <div className=' w-screen min-h-screen bg-gradient-to-t from-white to-cyan-300'>
 
                 <div className=' flex justify-center items-center pt-10' >
 
@@ -67,7 +67,7 @@ export default function Journey() {
                                     />
                                 </a>
 
-                                <div className='flex flex-col w-52 mx-2 text-white justify-center items-center'>
+                                <div className='flex flex-col w-52 mx-2  justify-center items-center'>
                                     {/* <p className='text-md md:text-2xl text-center'>{x.head?x.head : ''}</p> */}
                                     <p className='text-left my-1 ml-5 text-xs md:text-sm'>{x.text}</p>
 
@@ -104,6 +104,6 @@ export default function Journey() {
                 </div>
 
             </div>
-        </>
+        </div>
     )
 }

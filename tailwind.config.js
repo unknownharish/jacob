@@ -16,6 +16,7 @@ module.exports = {
         "donation":"url('/images/donation/bg-donation.webp')",
         "mainbg":"url('/images/startup/mainbg.webp')",
         "action-":"url('/images/startup/action-bg.webp')",
+        "kids":"url('/images/startup/kids-bg.webp')",
       },
       colors: {
         'header-pattern': 'black',

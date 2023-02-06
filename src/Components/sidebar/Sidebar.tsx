@@ -20,6 +20,20 @@ export default function Sidebar({ open, setopen }: any) {
     // bg-gray-700
 
 
+
+    let headerLinks = [
+
+        { link: '', text: 'HOME', image: '/images/common/HOME_BUTTON.png' },
+        { link: 'action-', text: 'ACTION', image: '/images/common/ACTION.png' },
+        { link: 'friends', text: 'SOCIAL', image: '/images/common/FRIENDS.webp' },
+        { link: 'kids', text: 'KIDS', image: '/images/common/KIDS.webp' },
+        { link: 'shop', text: 'SHOP', image: '/images/common/SHOP_ICON.png' },
+        { link: 'videoshack', text: 'VIDEOS', image: '/images/common/SHOP_ICON.png' },
+        { link: 'donation', text: 'DONATE', image: '/images/common/SHOP_ICON.png' },
+    ]
+
+
+
     return (
         <div style={style} className='sticky' >
 
@@ -28,17 +42,26 @@ export default function Sidebar({ open, setopen }: any) {
             <div className='bg-black px-2 text-white w-1/2 pt-10 fixed lg:w-2/6 md:px-16 md:pt-6 overflow-x-hidden absloute right-0'  >
 
 
-                <Link href="/"  >
-
-                    <div className='flex my-2 items-center cursor-pointer '>
-
-                        <Image src={'/images/common/HOME_BUTTON.png'} height={80} width={80} />
-                        <p className='ml-2 '>HOME</p>
-                    </div>
-                </Link>
+                {headerLinks.map((x, idx) => {
 
 
-                {/* <Link href="/action" > */}
+                    return (
+
+                        <Link key={idx} href={"/"+x.link}  >
+
+                            <div className='flex my-2 items-center cursor-pointer '>
+
+                                {/* <Image src={x.image} height={80} width={80} /> */}
+                                <p className='  my-3 font-bold ml-[100px]'>{x.text}</p>
+                            </div>
+                        </Link>
+                    )
+                })
+                }
+
+
+
+                {/* <Link href="/action" >
                 <Link href="/action-" >
 
                     <div className='flex my-2 items-center cursor-pointer '>
@@ -51,37 +74,38 @@ export default function Sidebar({ open, setopen }: any) {
 
                 {/* </Link> */}
 
-                <Link href="/friends" >
+                {/* <Link href="/friends" >
 
                     <div className='flex my-2 items-center cursor-pointer'>
                         <Image src={'/images/common/FRIENDS.webp'} height={80} width={80} />
                         <p className='ml-2'>SOCIAL</p>
                     </div>
-                </Link>
+                </Link> */}
 
-                <Link href="/dugutopia" >
+                {/* <Link href="/dugutopia" >
 
                     <div className='flex my-2 items-center cursor-pointer'>
                         <Image src={'/images/common/DUGUTOPIA.png'} height={80} width={80} />
                         <p className='ml-2'>DUGUTOPIA</p>
                     </div>
-                </Link>
+                </Link> */}
 
-                <Link href="/kids" >
+                {/* <Link href="/kids" >
 
                     <div className='flex my-2 items-center cursor-pointer'>
                         <Image src={'/images/common/KIDS.webp'} height={80} width={80} />
                         <p className='ml-2'>KIDS</p>
                     </div>
-                </Link>
+                </Link> */}
 
-                <Link href="/nfts" >
+                {/* <Link href="/nfts" >
 
                     <div className='flex my-2 items-center cursor-pointer'>
                         <Image src={'/images/common/NFT.webp'} height={80} width={80} />
                         <p className='ml-2'>NFTs</p>
                     </div>
-                </Link>
+                </Link> */}
+{/* 
                 <Link href="/shop" >
 
                     <div className='flex my-2 items-center cursor-pointer'>
@@ -89,6 +113,26 @@ export default function Sidebar({ open, setopen }: any) {
                         <p className='ml-2'>SHOP</p>
                     </div>
                 </Link>
+
+                <Link href="/videoshack" >
+
+                    <div className='flex my-2 items-center cursor-pointer'>
+                        <Image src={'/images/common/SHOP_ICON.png'} height={80} width={80} />
+                        <p className='ml-2'>VIDEOS</p>
+                    </div>
+                </Link>
+
+                <Link href="/donation" >
+
+                    <div className='flex my-2 items-center cursor-pointer'>
+                        <Image src={'/images/common/SHOP_ICON.png'} height={80} width={80} />
+                        <p className='ml-2'>DONATE</p>
+                    </div>
+                </Link> */}
+
+
+
+
 
                 <div className='flex flex-col text-xs md:text-sm  justify-center w-3/4 text-md mx-4 mt-8 md:my-2  md:mt-4  '>
 

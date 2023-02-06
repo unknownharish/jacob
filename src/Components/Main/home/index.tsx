@@ -10,12 +10,13 @@ export default function HomePageComponent() {
 
 
   return (
-    <div className="flex-1 flex flex-col justify-center items-center h-screen">
-      <div className=' flex justify-center items-center w-1/2 h-1/4 mx-auto'>
+    <div className="flex-1 flex flex-col justify-center items-center min-h-screen">
+      <div className=' flex justify-center items-center w-1/2 h-2/5  mx-auto '>
 
         <img className='h-32 mt-10 md:mt-0 md:h-60' src="/images/startup/App Header.png" alt="" />
       </div>
-      <div className="flex justify-center items-center flex-wrap animate-openMenu">
+
+      <div className="flex justify-center items-center flex-wrap animate-openMenu ">
 
 
         <div className="-mt-8 w-[180px] h-[300px]  lg:h-[350px] lg:w-[220px] cursor-pointer hover:brightness-110 relative">

@@ -14,7 +14,7 @@ export default function HomePage() {
   return (
     <>
       <HeaderComponent image={'/images/homePage/Logo.webp'} />
-      <div className="bg-mainbg bg-center bg-cover">
+      <div className="bg-mainbg bg-center bg-cover min-h-[100vh]">
 
         <HomePageComponent />
 
