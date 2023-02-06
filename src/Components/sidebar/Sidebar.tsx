@@ -53,7 +53,7 @@ export default function Sidebar({ open, setopen }: any) {
                         return (
                             <a href={x.link} target={'blank'}>
                                 <div className='flex my-2 items-center cursor-pointer '>
-                                <p className='  my-3 font-bold ml-[36px] lg:ml-[68px] text-md md:text-lg'>{x.text}</p>
+                                <p className='  my-3 font-bold ml-[36px]  lg:ml-[5px] xl:ml-[108px] text-md md:text-lg'>{x.text}</p>
                                 </div>
                             </a>
                         )
@@ -66,7 +66,7 @@ export default function Sidebar({ open, setopen }: any) {
                             <div className='flex my-2 items-center cursor-pointer '>
 
                                 {/* <Image src={x.image} height={80} width={80} /> */}
-                                <p className='  my-3 font-bold ml-[36px] lg:ml-[68px] text-md md:text-lg'>{x.text}</p>
+                                <p className='  my-3 font-bold ml-[36px] lg:ml-[5px] xl:ml-[108px] text-md md:text-lg'>{x.text}</p>
                             </div>
                         </Link>
                     )

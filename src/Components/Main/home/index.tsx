@@ -13,7 +13,7 @@ export default function HomePageComponent() {
     <div className="flex-1 flex flex-col justify-center items-center min-h-screen">
       <div className=' flex justify-center items-center w-1/2 h-2/5  mx-auto '>
 
-        <img className='h-32 mt-10 md:mt-0 md:h-60' src="/images/startup/App Header.png" alt="" />
+        <img className='h-32 mt-10 md:mt-0 md:h-60' src="/images/startup/App Header.webp" alt="" />
       </div>
 
       <div className="flex justify-center items-center flex-wrap animate-openMenu ">
@@ -45,7 +45,7 @@ export default function HomePageComponent() {
           </div>
         </Link>
 
-        <div className="-mt-6 md:-mt-8 w-[180px] h-[300px] lg:h-[350px] lg:w-[220px] cursor-pointer hover:opacity-120 hover:brightness-110 relative">
+        <div className="md:-mt-5 w-[180px] h-[300px] lg:h-[350px] lg:w-[220px] cursor-pointer hover:opacity-120 hover:brightness-110 relative">
           <Image
             src={"/images/homePage/kids.webp"}
             alt="Kids"
@@ -56,7 +56,7 @@ export default function HomePageComponent() {
         </div>
 
         <Link href='/donation'>
-          <div className=" w-[180px] h-[300px] lg:h-[350px] lg:w-[220px] cursor-pointer hover:opacity-120 hover:brightness-110 relative">
+          <div className=" mt-4 sm:mt-0 w-[180px] h-[300px] lg:h-[350px] lg:w-[220px] cursor-pointer hover:opacity-120 hover:brightness-110 relative">
             <Image
               src={"/images/donation/donatebutton.webp"}
               alt="Dugotopia"
