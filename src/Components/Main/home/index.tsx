@@ -13,7 +13,7 @@ export default function HomePageComponent() {
     <div className="flex-1 flex flex-col justify-center items-center min-h-screen">
       <div className=' flex justify-center items-center w-1/2 h-2/5  mx-auto '>
 
-        <img className='h-32 mt-10 md:mt-0 md:h-60' src="/images/startup/App Header.webp" alt="" />
+        <img className='h-32 mt-10 md:my-10 md:h-60' src="/images/startup/App Header.webp" alt="" />
       </div>
 
       <div className="flex justify-center items-center flex-wrap animate-openMenu ">
