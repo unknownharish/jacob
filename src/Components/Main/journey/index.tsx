@@ -34,7 +34,7 @@ export default function Journey() {
         <div>
 
 
-            <div className=' w-screen min-h-screen bg-gradient-to-t from-white to-[#00cc66]'>
+            <div className=' w-screen min-h-screen bg-gradient-to-t from-white to-[#3399cc]'>
 
                 <div className=' flex justify-center items-center pt-10' >
 

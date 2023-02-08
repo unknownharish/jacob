@@ -87,9 +87,9 @@ export default function Action() {
                             objectFit="contain"
                         />
 
-                        <div className='relative bg-red-500 h-6 w-4/6 left-[18%] top-[15%]'>
+                        {/* <div className='relative bg-red-500 h-6 w-4/6 left-[18%] top-[15%]'>
                             <p className='text-white flex justify-center items-center'>Coming soon</p>
-                        </div>
+                        </div> */}
                     </div>
                 </Link>
             </div>
