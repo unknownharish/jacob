@@ -15,10 +15,10 @@ export default function Journey() {
                     <img src="images/startup/GOButton.webp" className='cursor-pointer hover:brightness-110 w-40 m-auto ' alt="" />
                 </Link>
               
-                <Link href='/journey-' >
+                {/* <Link href='/journey-' >
                     <img src="images/prejourney/SHAREBUTTON.webp" className='cursor-pointer hover:brightness-110 w-40 m-auto ' alt="" />
                 </Link>
-              
+               */}
 
 
             </div>

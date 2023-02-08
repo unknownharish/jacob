@@ -15,9 +15,9 @@ export default function Shop() {
                     <img src="images/startup/Gobutton.png" className='cursor-pointer hover:brightness-110 w-40 m-auto ' alt="" />
                 </a>
 
-                <a href='http://friends.dugut.app ' target={'blank'} className='mb-2'>
+                {/* <a href='http://friends.dugut.app ' target={'blank'} className='mb-2'>
                     <img src="images/startup/Connect.png" className='cursor-pointer hover:brightness-110 w-28 mt-2 md:mt-0 m-auto' alt="" />
-                </a>
+                </a> */}
 
 
 
