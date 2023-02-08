@@ -10,7 +10,7 @@ export default function Play() {
 
             <HeaderComponent image={'/images/homePage/Logo.webp'} />
 
-            <div className="bg-gradient-to-t from-white to-[#3399cc] bg-center bg-cover">
+            <div className="bg-gradient-to-t from-white to-[#00cc66] bg-center bg-cover">
 
                 <PLayComponent />
                 <FooterComponent />

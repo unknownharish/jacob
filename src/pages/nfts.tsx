@@ -11,7 +11,7 @@ export default function Nfts() {
 
                 <a href="http://actionist.dugutopia.com" target={'blank'} className='mb-2' >
 
-                    <img src="images/startup/Gobutton.png" alt="" className='cursor-pointer hover:brightness-110 w-40 m-auto ' />
+                    <img src="images/startup/GOButton.webp" alt="" className='cursor-pointer hover:brightness-110 w-40 m-auto ' />
 
                 </a>
                 {/* <a href='http://friends.dugut.app ' target={'blank'} className='mb-2'>

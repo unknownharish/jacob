@@ -9,7 +9,7 @@ export default function Action() {
 
     return (
         <div className="flex-1 flex flex-col justify-center items-center">
-            <div className="h-[300px] w-[350px]  lg:h-[350px] md:w-[600px] relative cursor-pointer md:mt-5 lg:-mt-16">
+            <div className="h-[300px] w-[350px]  lg:h-[350px] md:w-[600px] relative cursor-pointer md:mt-5">
                 <Image
                     src="/images/action/actionpagetext.webp"
                     alt="Logo Weguut"

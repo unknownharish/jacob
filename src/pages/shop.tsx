@@ -12,7 +12,7 @@ export default function Shop() {
 
                 
                 <a href='https://friends.dugut.app/shop' target={'blank'} className='mb-2'>
-                    <img src="images/startup/Gobutton.png" className='cursor-pointer hover:brightness-110 w-40 m-auto ' alt="" />
+                    <img src="images/startup/GOButton.webp" className='cursor-pointer hover:brightness-110 w-40 m-auto ' alt="" />
                 </a>
 
                 {/* <a href='http://friends.dugut.app ' target={'blank'} className='mb-2'>

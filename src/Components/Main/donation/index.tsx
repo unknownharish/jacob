@@ -49,7 +49,7 @@ export default function MainDonation() {
                     className='cursor-pointer hover:brightness-110 '
 
                   />
-                  <div className='relative bg-red-500 h-6 w-5/6 left-[10%] bottom-[60%]'>
+                  <div className='relative bg-red-500 h-6 w-5/6 bottom-[20%] left-[5%] md:left-[10%] md:bottom-[60%]'>
                     <p className='text-white flex justify-center items-center'>Coming soon</p>
                   </div>
                 </a>
