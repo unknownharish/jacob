@@ -187,7 +187,7 @@ export default function Sidebar({ open, setopen }: any) {
 
                 </div> */}
 
-                <div className='absolute bottom-0 w-4/6'>
+                <div className='absolute bottom-0 w-5/6 lg:right-[5%]'>
 
 
 
