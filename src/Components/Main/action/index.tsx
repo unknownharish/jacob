@@ -34,7 +34,7 @@ export default function Action() {
 
 
                 <Link href="/friends" >
-                    <div className="w-[180px] h-[300px]  lg:h-[270px] lg:w-[220px] md:mt-2 cursor-pointer hover:brightness-110 relative ">
+                    <div className="w-[180px] h-[236px] lg:h-[270px] lg:w-[220px] md:mt-2 cursor-pointer hover:brightness-110 relative ">
                         <Image
                             src={"/images/action/friends.webp"}
                             alt="Friends"
@@ -58,7 +58,7 @@ export default function Action() {
 
                 <Link href="/shop">
 
-                    <div className="lg:flex w-[180px] h-[300px] lg:h-[270px] lg:w-[220px] lg:mt-2 cursor-pointer hover:opacity-120 hover:brightness-110 relative">
+                    <div className="lg:flex w-[180px] h-[234px] lg:h-[270px] lg:w-[220px] lg:mt-2 cursor-pointer hover:opacity-120 hover:brightness-110 relative">
                         <Image
                             src={"/images/action/SHOP_BUTTON.webp"}
                             alt="Shop Button"
@@ -79,7 +79,7 @@ export default function Action() {
                     </div>
                 </Link>
                 <Link href="/donation" target={'blank'}>
-                    <div className="w-[180px] h-[300px]  lg:h-[245px] lg:w-[215px] mt-6 md:mt-9  cursor-pointer hover:brightness-110 relative">
+                    <div className="w-[180px] h-[215px] lg:h-[240px] lg:w-[215px] mt-6 md:mt-9  cursor-pointer hover:brightness-110 relative">
                         <Image
                             src={"/images/donation/donatebutton.webp"}
                             alt="SDG"
