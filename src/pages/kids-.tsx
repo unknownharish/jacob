@@ -17,7 +17,8 @@ export default function KidsPage() {
     <>
       <HeaderComponent image={'/images/homePage/Logo.webp'} />
 
-      <div className="bg-kids bg-center bg-cover">
+      {/* <div className="bg-kids bg-center bg-cover"> */}
+      <div className="bg-gradient-to-t from-white to-[#00cc66]">
 
         <MainComponent />
         <FooterComponent />

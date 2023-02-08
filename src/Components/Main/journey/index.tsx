@@ -34,13 +34,13 @@ export default function Journey() {
         <div>
 
 
-            <div className=' w-screen min-h-screen bg-gradient-to-t from-white to-cyan-300'>
+            <div className=' w-screen min-h-screen bg-gradient-to-t from-white to-[#00cc66]'>
 
                 <div className=' flex justify-center items-center pt-10' >
 
 
                     <img className='h-60 px-3 md:p-0'
-                        src={'/images/journey/takejourney.png'}
+                        src={'/images/journey/takejourney.webp'}
 
                     />
 

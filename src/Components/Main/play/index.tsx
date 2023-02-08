@@ -23,9 +23,9 @@ export default function PLayComponent() {
     return (
         <div className=''>
 
-            <div className=' flex justify-center items-center w-1/2 h-1/4 mx-auto'>
+            <div className=' flex justify-center items-center md:w-1/2 h-1/4 mx-auto'>
 
-                <img className='h-32 mt-10 md:mt-0 md:h-60' src="/images/play/playgames.webp" alt="" />
+                <img className='h-32 mt-10 md:mt-0 md:h-72' src="/images/play/playgames.webp" alt="" />
             </div>
 
             <div className="flex justify-center items-center flex-wrap animate-openMenu ">

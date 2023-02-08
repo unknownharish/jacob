@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Journey() {
     return (
-        <div className='bg-gradient-to-t from-white to-cyan-300 h-screen flex flex-col overflow-y-hidden'>
+        <div className='bg-gradient-to-t from-white to-[#3399cc] h-screen flex flex-col overflow-y-hidden'>
 
 
 

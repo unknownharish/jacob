@@ -6,7 +6,7 @@ export default function Donation() {
 
 
     return (
-        <div className='bg-gradient-to-t from-white to-cyan-300 h-screen flex flex-col'>
+        <div className='bg-gradient-to-t from-white to-[#3399cc] h-screen flex flex-col'>
 
 
             <img src="images/donation/donation.webp" className='h-5/6 mx-auto mt-24  ' alt="" />

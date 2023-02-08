@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function PlayRedirect() {
     return (
-        <div className='bg-gradient-to-t from-white to-cyan-300 h-screen flex flex-col overflow-y-hidden'>
+        <div className='bg-gradient-to-t from-white to-[#3399cc] h-screen flex flex-col overflow-y-hidden'>
 
 
             <img src="images/startup/play.webp" className='h-5/6  mx-auto mt-24  ' alt="" />

@@ -5,7 +5,7 @@ import { useRouter } from 'next/router'
 export default function Yt() {
     const router = useRouter()
     return (
-        <div className='bg-gradient-to-t from-white to-cyan-300'>
+        <div className='bg-gradient-to-t from-white to-[#3399cc]'>
             <div className=' min-h-screen  w-[100vw] flex flex-col justify-center items-center '>
 
                 <div className='relative  '>
@@ -15,16 +15,16 @@ export default function Yt() {
                     <div className=''>
 
                         <Link href={'/videoshack-'}>
-                            <img src="/images/startup/GOButton.webp" className='cursor-pointer m-auto h-20  ' alt="" />
+                            <img src="/images/startup/GOButton.webp" className='cursor-pointer m-auto h-20  absolute top-[80%] left-[20%] lg:left-[43%]' alt="" />
                         </Link>
                     </div>
                     
-                    <div className='mb-10'>
+                    {/* <div className='mb-10'>
                         <a href="http://friends.dugut.app" >
 
                             <img src="/images/yt/connect.png" className='h-16 m-auto ' />
                         </a>
-                    </div>
+                    </div> */}
                     {/* <p className='absolute xl:top-[80vh] md:top-[47vh] top-[30vh] text-center font-bold xl:text-3xl left-[16vw] w-4/6 cursor-pointer text-white '>CONNECT!</p> */}
 
                 </div>

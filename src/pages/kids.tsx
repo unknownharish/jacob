@@ -10,7 +10,7 @@ export default function KidsRedirect() {
 
 
     return (
-        <div className='bg-gradient-to-t from-white to-cyan-300 h-screen flex flex-col overflow-y-hidden'>
+        <div className='bg-gradient-to-t from-white to-[#3399cc] h-screen flex flex-col overflow-y-hidden'>
 
 
             <img src="images/startup/kids.webp" className='object-contain  h-full p-1 w-full lg:w-4/6 m-auto ' alt="" />

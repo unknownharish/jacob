@@ -94,11 +94,11 @@ export default function SdgComponent() {
 
 
   return (
-    <div className='bg-gradient-to-t from-white to-cyan-300'>
+    <div className='bg-gradient-to-t from-white to-[#00cc66]'>
 
-      <div className=' flex justify-center items-center w-1/2 h-1/4  mx-auto mt-5'>
+      <div className=' flex justify-center items-center md:w-1/2 h-1/4  mx-auto mt-5'>
 
-        <img src="/images/sdg/sdgmain.webp" alt="" className='mt-10 md:mt-0' />
+        <img src="/images/sdg/sdgmain.webp" alt="" className='mt-10 xl:mt-0' />
       </div>
 
       {/* <h1 className='text-center text-white text-5xl my-2'>SDGs:</h1> */}

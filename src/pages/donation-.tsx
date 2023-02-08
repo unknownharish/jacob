@@ -12,7 +12,7 @@ export default function DonationRedirect() {
     <>
       <HeaderComponent image={'/images/homePage/Logo.webp'} />
 
-      <div className='bg-gradient-to-t from-white to-cyan-300 bg-center bg-cover'>
+      <div className='bg-gradient-to-t from-white to-[#00cc66] bg-center bg-cover'>
 
         <MainDonation />
       </div>

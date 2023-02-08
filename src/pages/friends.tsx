@@ -5,10 +5,10 @@ export default function Friends() {
 
 
     return ( 
-        <div className='bg-gradient-to-t from-white to-cyan-300 h-screen ' >
+        <div className='bg-gradient-to-t from-white to-[#3399cc] h-screen ' >
 
 
-            <div className='flex justify-center  h-screen overflow-y-hidden p-8 '>
+            <div className='flex justify-center  h-screen overflow-y-hidden pt-8 '>
 
                 <img src="images/startup/friends.webp" className='object-contain' alt="" />
             </div>

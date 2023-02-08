@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function SdgRedirect() {
     return (
-        <div className='bg-gradient-to-t from-white to-cyan-300 h-screen flex flex-col overflow-y-hidden'>
+        <div className='bg-gradient-to-t from-white to-[#3399cc] h-screen flex flex-col overflow-y-hidden'>
 
 
             <img src="images/startup/sdg.webp" className='h-5/6 md:h-full md:w-auto  mx-auto mt-8 p-1 ' alt="" />

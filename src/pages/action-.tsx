@@ -13,7 +13,8 @@ export default function ActionPage() {
     return (
         <>
             <HeaderComponent image={'/images/homePage/Logo.webp'} />
-            <div className="bg-action- bg-center bg-cover">
+            {/* <div className="bg-action- bg-center bg-cover"> */}
+            <div className="bg-gradient-to-t from-white to-[#0033cc]">
 
                 <ActionMain />
                 <FooterComponent />

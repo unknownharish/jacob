@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Shop() {
     return (
-        <div className='bg-gradient-to-t from-white to-cyan-300 h-screen flex flex-col overflow-y-hidden'>
+        <div className='bg-gradient-to-t from-white to-[#3399cc] h-screen flex flex-col overflow-y-hidden'>
 
 
             <img src="images/startup/shop.webp" className='h-5/6 md:mx-auto mt-12 object-contain p-1 w-12/12   lg:w-6/12  ' alt="" />

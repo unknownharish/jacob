@@ -40,7 +40,7 @@ export default function MainDonation() {
               <div key={idx} className='flex m-5 mb-8 '>
 
 
-                <a href={x.href} target={'blank'}>
+                <a href={x.href} target={'blank'} className='relative'>
 
                   <Image
                     src={x.src}
@@ -49,6 +49,9 @@ export default function MainDonation() {
                     className='cursor-pointer hover:brightness-110 '
 
                   />
+                  <div className='relative bg-red-500 h-6 w-5/6 left-[10%] bottom-[60%]'>
+                    <p className='text-white flex justify-center items-center'>Coming soon</p>
+                  </div>
                 </a>
 
                 <div className='flex flex-col w-52 mx-2  justify-center items-center'>

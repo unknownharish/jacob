@@ -11,7 +11,7 @@ export default function HomePageComponent() {
 
   return (
     <div className="flex-1 flex flex-col justify-center items-center min-h-screen">
-      <div className=' flex justify-center items-center w-1/2 h-2/5  mx-auto lg:-mt-40'>
+      <div className=' flex justify-center items-center w-8/12 sm:w-1/2 h-2/5  mx-auto lg:-mt-40'>
 
         <img className='h-32 mt-10 md:my-10 md:h-60' src="/images/startup/App Header.webp" alt="" />
       </div>
@@ -45,7 +45,7 @@ export default function HomePageComponent() {
           </div>
         </Link>
 
-        <div className="md:-mt-5 w-[180px] h-[300px] lg:h-[350px] lg:w-[220px] cursor-pointer hover:opacity-120 hover:brightness-110 relative">
+        <div className="md:-mt-5 w-[180px] h-[300px] lg:h-[288px] lg:w-[220px] cursor-pointer hover:opacity-120 hover:brightness-110 relative">
           <Image
             src={"/images/homePage/kids.webp"}
             alt="Kids"
@@ -64,9 +64,7 @@ export default function HomePageComponent() {
               objectFit="contain"
 
             />
-            <div className='relative bg-red-500 h-6 w-4/6 left-[18%] top-[15%]'>
-              <p className='text-white flex justify-center items-center'>Coming soon</p>
-            </div>
+            
           </div>
         </Link>
 

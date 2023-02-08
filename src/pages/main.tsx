@@ -14,11 +14,12 @@ export default function HomePage() {
   return (
     <>
       <HeaderComponent image={'/images/homePage/Logo.webp'} />
-      <div className="bg-mainbg bg-center bg-cover min-h-[100vh]">
+      {/* <div className="bg-mainbg bg-center bg-cover min-h-[100vh]"> */}
+      <div className="bg-gradient-to-t from-white to-[#0033cc] min-h-[100vh]">
 
         <HomePageComponent />
 
-        <FooterComponent />
+        <FooterComponent /> 
       </div>
     </>
   );
