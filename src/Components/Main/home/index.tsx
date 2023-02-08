@@ -35,7 +35,7 @@ export default function HomePageComponent() {
 
         <Link href='/friends'>
 
-          <div className="-mt-8 w-[180px] h-[300px]  lg:h-[350px] lg:w-[220px] cursor-pointer hover:brightness-110 relative">
+          <div className="-mt-8 w-[180px] h-[300px] lg:h-[350px] lg:w-[220px] cursor-pointer hover:brightness-110 relative">
             <Image
               src={"/images/homePage/friends.webp"}
               alt="Friends"
@@ -45,7 +45,7 @@ export default function HomePageComponent() {
           </div>
         </Link>
 
-        <div className="md:-mt-5 w-[180px] h-[238px] lg:h-[288px] lg:w-[220px] cursor-pointer hover:opacity-120 hover:brightness-110 relative">
+        <div className="md:-mt-5 w-[180px] h-[238px] lg:mb-2 lg:h-[288px] lg:w-[220px] cursor-pointer hover:opacity-120 hover:brightness-110 relative">
           <Image
             src={"/images/homePage/kids.webp"}
             alt="Kids"
@@ -56,7 +56,7 @@ export default function HomePageComponent() {
         </div>
 
         <Link href='/donation'>
-          <div className=" mt-4 sm:mt-0 w-[180px] h-[300px] lg:h-[266px] lg:w-[220px] cursor-pointer hover:opacity-120 hover:brightness-110 relative">
+          <div className=" mt-4 sm:mt-0 w-[180px] h-[300px] lg:mb-2 lg:h-[266px] lg:w-[220px] cursor-pointer hover:opacity-120 hover:brightness-110 relative">
             <Image
               src={"/images/donation/donatebutton.webp"}
               alt="Dugotopia"
