@@ -14,7 +14,7 @@ export default function Friends() {
             </div>
             <div className='h-[18vh] flex flex-col justify-center absolute bottom-5 md:bottom-6 w-full  '>
                
-                <a href='https://friends.dugut.app' target={'blank'} className='-mb-10 md:-mb-20'>
+                <a href='https://friends.dugut.app' target={'blank'} className='-mb-8 md:-mb-20'>
                     <img src="images/startup/GOButton.webp" className='cursor-pointer hover:brightness-110 w-40 m-auto ' alt="" />
                 </a>
 
