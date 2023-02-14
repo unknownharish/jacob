@@ -8,7 +8,7 @@ export default function Friends() {
         <div className='bg-gradient-to-t from-white to-[#3399cc] min-h-screen max-h-screen overflow-y-hidden ' >
 
 
-            <div className='flex justify-center  pt-[240px] md:pt-8 '>
+            <div className='flex justify-center items-end h-screen  '>
 
                 <img src="images/startup/friends.webp" className='object-contain' alt="" />
             </div>
