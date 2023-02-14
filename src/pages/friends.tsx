@@ -4,7 +4,7 @@ import React from 'react'
 export default function Friends() {
 
 
-    return ( 
+    return (
         <div className='bg-gradient-to-t from-white to-[#3399cc] h-screen ' >
 
 
@@ -12,8 +12,8 @@ export default function Friends() {
 
                 <img src="images/startup/friends.webp" className='object-contain' alt="" />
             </div>
-            <div className='h-[18vh] flex flex-col justify-center absolute bottom-5 md:bottom-6 w-full  '>
-               
+            <div className='h-[18vh] flex flex-col justify-center absolute bottom-0 md:bottom-6 w-full  '>
+
                 <a href='https://friends.dugut.app' target={'blank'} className='-mb-8 md:-mb-20'>
                     <img src="images/startup/GOButton.webp" className='cursor-pointer hover:brightness-110 w-40 m-auto ' alt="" />
                 </a>
